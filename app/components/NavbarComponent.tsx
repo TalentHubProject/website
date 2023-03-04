@@ -6,7 +6,7 @@ import React from "react";
 
 export default function NavbarComponent() {
 
-    return (<nav className={"container mx-auto flex mt-4 mb-8 items-center gap-4"}>
+    return (<nav className={"container mx-auto flex mt-4 mb-8 items-center gap-4 mb-72"}>
         <Link href={"/"} className={"flex items-center"}>
             <Image src={"logo.svg"} alt={"Talent Hub's logo"} width={32} height={32}/>
             <span className={"font-semibold"}>Talent Hub</span>
