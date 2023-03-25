@@ -5,50 +5,44 @@ import type { FeatureItem } from "~/types";
 
 const features: Array<FeatureItem> = [
   {
-    title: "Bring Your Own Framework",
+    title: "Artistic Hub",
     description:
-      "Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.",
+      "A dedicated space for visual creators and art enthusiasts. Here, you will find artists from various backgrounds, such as painting, drawing, photography, sculpture, and more.",
     icon: "mdi:handshake",
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "Development Hub",
     description:
-      "Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.",
+      "A haven for programmers, developers, and technology enthusiasts. Members of this hub share a passion for coding, software development, web design, and related fields.",
     icon: "mdi:feather",
   },
   {
-    title: "On-Demand Components",
+    title: "Music Hub",
     description:
-      "Need some JS? Astro can automatically hydrate interactive components when they become visible on the page. If the user never sees it, they never load it.",
+      "In this hub, you will find individuals with diverse musical interests and talents, ranging from playing instruments to composing and producing original music.",
     icon: "mdi:directions-fork",
   },
   {
-    title: "Broad Integration",
+    title: "Investment Hub",
     description:
-      "Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any of your favorite npm packages.",
+      "Designed for financial enthusiasts, investors, and entrepreneurs.",
     icon: "mdi:graph",
   },
   {
-    title: "SEO Enabled",
+    title: "Imaginary Hub",
     description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication.",
+      "Creative space for storytellers, game designers, screenwriters, and narrative enthusiasts. Members of this hub are passionate about crafting compelling stories, designing immersive game experiences.",
     icon: "mdi:search-web",
-  },
-  {
-    title: "Community",
-    description:
-      "Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.",
-    icon: "mdi:account-group",
   },
 ];
 ---
 
-<ContentSection title="Features" id="features">
+<ContentSection title="The different hubs" id="features">
   <Fragment slot="lead">
-    Astro comes <span class="text-primary">batteries included</span>. It takes
-    the best parts of
-    <span class="text-primary">state-of-the-art</span>
-    tools and adds its own <span class="text-primary">innovations</span>.
+    Talent Hub comes with <span class="text-primary">specialized hubs</span>. It allows
+    to improve the <span class="text-primary">talent acquisition</span> process and
+    <span class="text-primary">increase</span> the <span class="text-primary">quality</span> of
+    the <span class="text-primary">hiring</span> process.
   </Fragment>
   <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
     {
