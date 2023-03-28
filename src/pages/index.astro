@@ -6,6 +6,7 @@ import Header from "~/components/header.astro";
 import Intro from "~/components/intro.astro";
 import Splash from "~/components/splash.astro";
 import "~/styles/index.css";
+import Supporters from "../components/supporters.astro";
 
 const {generator, site} = Astro;
 const image = new URL("logo.png", site);
@@ -61,6 +62,7 @@ const description = "Talent Hub is an innovative collaboration platform on Disco
 <Splash/>
 <div class="space-y-24 px-8 py-32">
     <Intro/>
+    <Supporters/>
     <Features/>
 </div>
 <Footer/>

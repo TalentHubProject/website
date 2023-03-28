@@ -1,0 +1,22 @@
+---
+import ContentSection from "~/components/content-section.astro";
+
+interface SupporterProps {
+    logo: string;
+    link: string;
+    }
+
+const supporters: SupporterProps[] = [
+    {
+        logo: "ltdd.png",
+        link: "https://latavernedudesign.fr/",
+    }
+];
+---
+<ContentSection title="They support us" class="supporters">
+    {supporters.map((supporter) => (
+            <a href={supporter.link} target="_blank" rel="noopener noreferrer" class="opacity-75 hover:opacity-100 transition-opacity duration-300 ease-in-out h-32 w-32">
+                <img src={supporter.logo} alt="{supporter.logo}" />
+            </a>
+    ))}
+</ContentSection>
