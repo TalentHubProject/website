@@ -25,6 +25,7 @@
     "tailwindcss-fluid-type": "^2.0.3"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^1.2.2",
     "@fontsource/inter": "^4.5.14",
     "micromodal": "^0.4.10",
     "sharp": "^0.31.2",
