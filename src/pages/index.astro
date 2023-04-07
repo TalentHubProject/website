@@ -35,6 +35,18 @@ const description = "Talent Hub, innovative collaboration platform on Discord, d
     <meta property="og:url" content={site}/>
     <meta name="twitter:card" content="summary_large_image"/>
 
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G8BMPBZX5C"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-G8BMPBZX5C');
+    </script>
+
+
     <!-- initialize theme -->
     <script is:inline>
         const themeSaved = localStorage.getItem("theme");
