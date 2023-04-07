@@ -3,13 +3,15 @@ import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
 
 import sitemap from "@astrojs/sitemap";
+import robotsTxt from 'astro-robots-txt'
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-moon-landing.netlify.app/",
+  site: "https://talent-hub.fr/",
   integrations: [tailwind(), image({
     serviceEntryPoint: "@astrojs/image/sharp"
-  }), sitemap()],
+  }), sitemap(), robotsTxt()
+  ],
   vite: {
     ssr: {
       external: ["svgo"]

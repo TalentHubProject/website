@@ -438,13 +438,20 @@
     "tiny-glob" "^0.2.9"
     "tslib" "^2.4.0"
 
-"@proload/core@^0.3.2":
+"@proload/core@^0.3.2", "@proload/core@^0.3.3":
   "integrity" "sha512-7dAFWsIK84C90AMl24+N/ProHKm4iw0akcnoKjRvbfHifJZBLhaDsDus1QJmhG12lXj4e/uB/8mB/0aduCW+NQ=="
   "resolved" "https://registry.npmjs.org/@proload/core/-/core-0.3.3.tgz"
   "version" "0.3.3"
   dependencies:
     "deepmerge" "^4.2.2"
     "escalade" "^3.1.1"
+
+"@proload/plugin-tsm@^0.2.1":
+  "integrity" "sha512-Ex1sL2BxU+g8MHdAdq9SZKz+pU34o8Zcl9PHWo2WaG9hrnlZme607PU6gnpoAYsDBpHX327+eu60wWUk+d/b+A=="
+  "resolved" "https://registry.npmjs.org/@proload/plugin-tsm/-/plugin-tsm-0.2.1.tgz"
+  "version" "0.2.1"
+  dependencies:
+    "tsm" "^2.1.4"
 
 "@trysound/sax@0.2.0":
   "integrity" "sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA=="
@@ -673,6 +680,17 @@
     "node-fetch" "^3.1.0"
     "resolve-pkg" "^2.0.0"
     "svgo" "^2.8.0"
+
+"astro-robots-txt@^0.4.1":
+  "integrity" "sha512-YujWFocCHcOA+sDlaiqVsUH7eeHDOn9WrtsyT7KPW3JOHn1dZB1KwoshsPGTJiZ0PeeAqPcHOz+M9xjzc/tjsQ=="
+  "resolved" "https://registry.npmjs.org/astro-robots-txt/-/astro-robots-txt-0.4.1.tgz"
+  "version" "0.4.1"
+  dependencies:
+    "@proload/core" "^0.3.3"
+    "@proload/plugin-tsm" "^0.2.1"
+    "deepmerge" "^4.3.1"
+    "valid-filename" "^4.0.0"
+    "zod" "^3.21.4"
 
 "astro@^2.0.2", "astro@^2.0.4":
   "integrity" "sha512-VSxFONW4hazODUIzjpoPdSZ4eRMz86pQn375277GhJDDRq/kfA5tSfvDFtySlAeEWrsE9W8tC2Jj3HuYcRYRig=="
@@ -1091,10 +1109,10 @@
   "resolved" "https://registry.npmjs.org/deepmerge-ts/-/deepmerge-ts-4.2.2.tgz"
   "version" "4.2.2"
 
-"deepmerge@^4.2.2":
-  "integrity" "sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg=="
-  "resolved" "https://registry.npmjs.org/deepmerge/-/deepmerge-4.2.2.tgz"
-  "version" "4.2.2"
+"deepmerge@^4.2.2", "deepmerge@^4.3.1":
+  "integrity" "sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A=="
+  "resolved" "https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz"
+  "version" "4.3.1"
 
 "defaults@^1.0.3":
   "integrity" "sha512-eFuaLoy/Rxalv2kr+lqMlUnrDWV+3j4pljOIJgLIhI058IQfWJ7vXhyEIHu+HtC738klGALYxOKDO0bQP3tg8A=="
@@ -1232,6 +1250,39 @@
   "resolved" "https://registry.npmjs.org/es-module-lexer/-/es-module-lexer-1.1.0.tgz"
   "version" "1.1.0"
 
+"esbuild-windows-64@0.15.18":
+  "integrity" "sha512-qinug1iTTaIIrCorAUjR0fcBk24fjzEedFYhhispP8Oc7SFvs+XeW3YpAKiKp8dRpizl4YYAhxMjlftAMJiaUw=="
+  "resolved" "https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.15.18.tgz"
+  "version" "0.15.18"
+
+"esbuild@^0.15.16":
+  "integrity" "sha512-x/R72SmW3sSFRm5zrrIjAhCeQSAWoni3CmHEqfQrZIQTM3lVCdehdwuIqaOtfC2slvpdlLa62GYoN8SxT23m6Q=="
+  "resolved" "https://registry.npmjs.org/esbuild/-/esbuild-0.15.18.tgz"
+  "version" "0.15.18"
+  optionalDependencies:
+    "@esbuild/android-arm" "0.15.18"
+    "@esbuild/linux-loong64" "0.15.18"
+    "esbuild-android-64" "0.15.18"
+    "esbuild-android-arm64" "0.15.18"
+    "esbuild-darwin-64" "0.15.18"
+    "esbuild-darwin-arm64" "0.15.18"
+    "esbuild-freebsd-64" "0.15.18"
+    "esbuild-freebsd-arm64" "0.15.18"
+    "esbuild-linux-32" "0.15.18"
+    "esbuild-linux-64" "0.15.18"
+    "esbuild-linux-arm" "0.15.18"
+    "esbuild-linux-arm64" "0.15.18"
+    "esbuild-linux-mips64le" "0.15.18"
+    "esbuild-linux-ppc64le" "0.15.18"
+    "esbuild-linux-riscv64" "0.15.18"
+    "esbuild-linux-s390x" "0.15.18"
+    "esbuild-netbsd-64" "0.15.18"
+    "esbuild-openbsd-64" "0.15.18"
+    "esbuild-sunos-64" "0.15.18"
+    "esbuild-windows-32" "0.15.18"
+    "esbuild-windows-64" "0.15.18"
+    "esbuild-windows-arm64" "0.15.18"
+
 "esbuild@^0.16.3":
   "integrity" "sha512-G8LEkV0XzDMNwXKgM0Jwu3nY3lSTwSGY6XbxM9cr9+s0T/qSV1q1JVPBGzm3dcjhCic9+emZDmMffkwgPeOeLg=="
   "resolved" "https://registry.npmjs.org/esbuild/-/esbuild-0.16.17.tgz"
@@ -1349,6 +1400,11 @@
   dependencies:
     "node-domexception" "^1.0.0"
     "web-streams-polyfill" "^3.0.3"
+
+"filename-reserved-regex@^3.0.0":
+  "integrity" "sha512-hn4cQfU6GOT/7cFHXBqeBg2TbrMBgdD0kcjLhvSQYYwm3s4B6cjvBfb7nBALJLAXqmU5xajSa7X2NnUud/VCdw=="
+  "resolved" "https://registry.npmjs.org/filename-reserved-regex/-/filename-reserved-regex-3.0.0.tgz"
+  "version" "3.0.0"
 
 "fill-range@^7.0.1":
   "integrity" "sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ=="
@@ -3308,6 +3364,13 @@
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.5.0.tgz"
   "version" "2.5.0"
 
+"tsm@^2.1.4":
+  "integrity" "sha512-++0HFnmmR+gMpDtKTnW3XJ4yv9kVGi20n+NfyQWB9qwJvTaIWY9kBmzek2YUQK5APTQ/1DTrXmm4QtFPmW9Rzw=="
+  "resolved" "https://registry.npmjs.org/tsm/-/tsm-2.3.0.tgz"
+  "version" "2.3.0"
+  dependencies:
+    "esbuild" "^0.15.16"
+
 "tunnel-agent@^0.6.0":
   "integrity" "sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w=="
   "resolved" "https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz"
@@ -3440,6 +3503,13 @@
     "diff" "^5.0.0"
     "kleur" "^4.0.3"
     "sade" "^1.7.3"
+
+"valid-filename@^4.0.0":
+  "integrity" "sha512-VEYTpTVPMgO799f2wI7zWf0x2C54bPX6NAfbZ2Z8kZn76p+3rEYCTYVYzMUcVSMvakxMQTriBf24s3+WeXJtEg=="
+  "resolved" "https://registry.npmjs.org/valid-filename/-/valid-filename-4.0.0.tgz"
+  "version" "4.0.0"
+  dependencies:
+    "filename-reserved-regex" "^3.0.0"
 
 "vfile-location@^4.0.0":
   "integrity" "sha512-JDxPlTbZrZCQXogGheBHjbRWjESSPEak770XwWPfw5mTc1v1nWGLB/apzZxsx8a0SJVfF8HK8ql8RD308vXRUw=="
@@ -3647,10 +3717,10 @@
   "resolved" "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
   "version" "0.1.0"
 
-"zod@^3.17.3":
-  "integrity" "sha512-1MzNQdAvO+54H+EaK5YpyEy0T+Ejo/7YLHS93G3RnYWh5gaotGHwGeN/ZO687qEDU2y4CdStQYXVHIgrUl5UVQ=="
-  "resolved" "https://registry.npmjs.org/zod/-/zod-3.20.2.tgz"
-  "version" "3.20.2"
+"zod@^3.17.3", "zod@^3.21.4":
+  "integrity" "sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw=="
+  "resolved" "https://registry.npmjs.org/zod/-/zod-3.21.4.tgz"
+  "version" "3.21.4"
 
 "zwitch@^2.0.0", "zwitch@^2.0.4":
   "integrity" "sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A=="
