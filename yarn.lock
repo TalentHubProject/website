@@ -75,6 +75,14 @@
     "unist-util-visit" "^4.1.0"
     "vfile" "^5.3.2"
 
+"@astrojs/partytown@^1.2.0":
+  "integrity" "sha512-AjrroKpBJR4rs0CLlmLqZ82Dfa3fFvN9mQZ3cfOXQYo85Rc/85R01MZiS1S1G5IzqWi2TDWIMH6R1cm12aGKDg=="
+  "resolved" "https://registry.npmjs.org/@astrojs/partytown/-/partytown-1.2.0.tgz"
+  "version" "1.2.0"
+  dependencies:
+    "@builder.io/partytown" "^0.7.4"
+    "mrmime" "^1.0.0"
+
 "@astrojs/prism@^2.0.0":
   "integrity" "sha512-YgeoeEPqsxaEpg0rwe/bUq3653LqSQnMjrLlpYwrbQQMQQqz6Y5yXN+RX3SfLJ6ppNb4+Fu2+Z49EXjk48Ihjw=="
   "resolved" "https://registry.npmjs.org/@astrojs/prism/-/prism-2.0.0.tgz"
@@ -330,6 +338,11 @@
     "@babel/helper-string-parser" "^7.19.4"
     "@babel/helper-validator-identifier" "^7.19.1"
     "to-fast-properties" "^2.0.0"
+
+"@builder.io/partytown@^0.7.4":
+  "integrity" "sha512-snXIGNiZpqjno3XYQN2lbBB+05hsQR/LSttbtIW1c0gmZ7Kh/DIo0YrxlDxCDulAMFPFM8J+4voLwvYepSj3sw=="
+  "resolved" "https://registry.npmjs.org/@builder.io/partytown/-/partytown-0.7.6.tgz"
+  "version" "0.7.6"
 
 "@emmetio/abbreviation@^2.2.3":
   "integrity" "sha512-87pltuCPt99aL+y9xS6GPZ+Wmmyhll2WXH73gG/xpGcQ84DRnptBsI2r0BeIQ0EB/SQTOe2ANPqFqj3Rj5FOGA=="
@@ -2371,6 +2384,11 @@
   "integrity" "sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA=="
   "resolved" "https://registry.npmjs.org/mri/-/mri-1.2.0.tgz"
   "version" "1.2.0"
+
+"mrmime@^1.0.0":
+  "integrity" "sha512-hzzEagAgDyoU1Q6yg5uI+AorQgdvMCur3FcKf7NhMKWsaYg+RnbTyHRa/9IlLF9rf455MOCtcqqrQQ83pPP7Uw=="
+  "resolved" "https://registry.npmjs.org/mrmime/-/mrmime-1.0.1.tgz"
+  "version" "1.0.1"
 
 "ms@2.1.2":
   "integrity" "sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w=="

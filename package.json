@@ -25,6 +25,7 @@
     "tailwindcss-fluid-type": "^2.0.3"
   },
   "dependencies": {
+    "@astrojs/partytown": "^1.2.0",
     "@astrojs/sitemap": "^1.2.2",
     "@fontsource/inter": "^4.5.14",
     "astro-robots-txt": "^0.4.1",
