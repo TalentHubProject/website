@@ -5,55 +5,55 @@ import type { FeatureItem } from "~/types";
 
 const features: Array<FeatureItem> = [
   {
-    title: "Artistic Hub",
+    title: "Pôle Art",
     description:
-      "A dedicated space for visual creators and art enthusiasts. Here, you will find artists from various backgrounds, such as painting, drawing, photography, sculpture, and more.",
+        "Un espace dédié aux créateurs visuels et aux passionnés d'art. Vous y trouverez des artistes de divers horizons, tels que la peinture, le dessin, la photographie, la sculpture et plus encore.",
     icon: "mdi:brush",
   },
   {
-    title: "Development Hub",
+    title: "Pôle Développement",
     description:
-      "A haven for programmers, developers, and technology enthusiasts. Members of this hub share a passion for coding, software development, web design, and related fields.",
+        "Un havre pour les programmeurs, les développeurs et les passionnés de technologie. Les membres de ce pôle partagent une passion pour la programmation, le développement de logiciels, le design web et les domaines connexes.",
     icon: "mdi:laptop-chromebook",
   },
   {
-    title: "Music Hub",
+    title: "Pôle Son",
     description:
-      "In this hub, you will find individuals with diverse musical interests and talents, ranging from playing instruments to composing and producing original music.",
+        "Dans ce pôle, vous trouverez des individus aux intérêts et talents musicaux divers, allant de la pratique d'instruments à la composition et à la production de musique originale.",
     icon: "mdi:music-note",
   },
   {
-    title: "Investment Hub",
+    title: "Pôle Investissement",
     description:
-      "Designed for financial enthusiasts, investors, and entrepreneurs.",
+        "Conçu pour les passionnés de finance, les investisseurs et les entrepreneurs.",
     icon: "mdi:hand-coin",
   },
   {
-    title: "Imaginary Hub",
+    title: "Pôle Écrit",
     description:
-      "Creative space for storytellers, game designers, screenwriters, and narrative enthusiasts. Members of this hub are passionate about crafting compelling stories, designing immersive game experiences.",
+        "Espace créatif pour les conteurs, les concepteurs de jeux, les scénaristes et les passionnés de narration. Les membres de ce pôle sont passionnés par la création d'histoires captivantes et la conception d'expériences de jeu immersives.",
     icon: "mdi:book-open-page-variant",
   },
 ];
 ---
 
-<ContentSection title="The different hubs" id="features">
+<ContentSection title="Les différents pôles" id="features">
   <Fragment slot="lead">
-    Talent Hub comes with <span class="text-primary">specialized hubs</span>. It allows
-    to improve the <span class="text-primary">talent acquisition</span> process and
-    <span class="text-primary">increase</span> the <span class="text-primary">quality</span> of
-    the <span class="text-primary">hiring</span> process.
+    Talent Hub propose des <span class="text-primary">pôles spécialisés</span>. Cela permet
+    d'améliorer le processus d'<span class="text-primary">acquisition de talents</span> et
+    d'<span class="text-primary">augmenter</span> la <span class="text-primary">qualité</span> de
+    la <span class="text-primary">procédure de recrutement</span>.
   </Fragment>
   <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
     {
       features.map(({ title, description, icon }) => (
-        <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
-          <div class="h-16 w-16 rounded-full border-2 border-current p-3">
-            <Icon name={icon} />
-          </div>
-          <p class="text-center font-extrabold text-xl">{title}</p>
-          <p class="text-center text-offset text-sm">{description}</p>
-        </li>
+          <li class="flex flex-col items-center gap-4 border border-default bg-offset p-6">
+            <div class="h-16 w-16 rounded-full border-2 border-current p-3">
+              <Icon name={icon} />
+            </div>
+            <p class="text-center font-extrabold text-xl">{title}</p>
+            <p class="text-center text-offset text-sm">{description}</p>
+          </li>
       ))
     }
   </ul>
