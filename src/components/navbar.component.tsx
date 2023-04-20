@@ -14,21 +14,21 @@ export default function Navbar() {
             <nav className="inline-flex justify-between w-full items-center pb-5">
                 <ul className="inline-flex items-center">
                     <li>
-                        <Link href="/" className="mr-6 font-bold text-2xl">
+                        <Link href="/" className="mr-6 font-bold text-xl">
                             Talent Hub
                         </Link>
                     </li>
                     <li className="mr-6">
-                        <Link href="/" className="text-gray-400 hover:text-white delay-75 duration-100 ease-in-out">Pôles</Link>
+                        <Link href="/" className="text-gray-400 text-sm hover:text-white delay-75 duration-100 ease-in-out">Pôles</Link>
                     </li>
                     <li className="mr-6">
-                        <Link href="/" className="text-gray-400 hover:text-white delay-75 duration-100 ease-in-out">Blog</Link>
+                        <Link href="/" className="text-gray-400 text-sm hover:text-white delay-75 duration-100 ease-in-out">Blog</Link>
                     </li>
                     <li className="mr-6">
-                        <Link href="/about" className="text-gray-400 hover:text-white delay-75 duration-100 ease-in-out">Offres</Link>
+                        <Link href="/about" className="text-gray-400 text-sm hover:text-white delay-75 duration-100 ease-in-out">Offres</Link>
                     </li>
                     <li className="mr-6">
-                        <Link href="/contact" className="text-gray-400 hover:text-white delay-75 duration-100 ease-in-out">Trombinoscope</Link>
+                        <Link href="/contact" className="text-gray-400 text-sm hover:text-white delay-75 duration-100 ease-in-out">Trombinoscope</Link>
                     </li>
                 </ul>
                 <ul className="inline-flex">
