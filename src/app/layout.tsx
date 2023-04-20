@@ -12,12 +12,14 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (<html lang="fr">
-    <body>
+    <body className="min-h-screen">
     <div className="grid md:grid-cols-8 gap-1 sm:grid-cols-1 p-5">
         <div className="col-span-1"></div>
-        <div className="col-start-2 col-span-6">
+        <div className="col-start-2 col-span-6 flex-inline justify-between gap-5">
             <Navbar/>
-            {children}
+            <main className="container mx-auto py-8 mt-4">
+                {children}
+            </main>
         </div>
         <div className="col-span-1"></div>
     </div>

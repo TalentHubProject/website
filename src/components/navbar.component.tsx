@@ -8,8 +8,8 @@ export default function Navbar() {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <>
-            <nav className="inline-flex justify-between w-full items-center">
+        <header>
+            <nav className="inline-flex justify-between w-full items-center pb-5 border-b border-gray-700">
                 <ul className="inline-flex items-center">
                     <li>
                         <Link href="/" className="mr-6 font-bold text-2xl">
@@ -35,6 +35,6 @@ export default function Navbar() {
                     </li>
                 </ul>
             </nav>
-        </>
+        </header>
     );
 }
