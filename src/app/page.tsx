@@ -4,10 +4,11 @@ import { Inter } from 'next/font/google'
 
 export default function Home() {
   return (
-    <main>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda atque distinctio eaque, eius harum
-        inventore iste, magnam nemo optio perferendis ratione repellat velit veniam voluptas! Id necessitatibus numquam
-        quam.</p>
+    <main className="flex justify-center text-center items-center px-auto">
+      <section>
+        <h1 className="font-black text-6xl">Unis pour la croissance</h1>
+        <h4 className="text-gray-400 text-3xl font-light">Art, développement, écriture, et bien plus encore...</h4>
+      </section>
     </main>
   )
 }

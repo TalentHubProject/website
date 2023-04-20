@@ -20,7 +20,7 @@ export default function RootLayout({
         <div className="col-span-1"></div>
         <div className="col-start-2 col-span-6 flex-inline justify-between gap-5 ">
             <Navbar/>
-            <main className="container mx-auto py-8 mt-4">
+            <main className="container mx-auto py-8 mt-8">
                 {children}
             </main>
         </div>

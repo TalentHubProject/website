@@ -11,7 +11,7 @@ export default function Navbar() {
 
     return (
         <header>
-            <nav className="inline-flex justify-between w-full items-center pb-5">
+            <nav className="inline-flex justify-between w-full items-center pb-8">
                 <ul className="inline-flex items-center">
                     <li>
                         <Link href="/" className="mr-6 font-bold text-xl">
