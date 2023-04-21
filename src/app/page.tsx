@@ -14,12 +14,9 @@ export default function Home() {
             <section>
                 <span className="uppercase text-gray-400 font-regular text-sm">soutenu par des personnes et projets à travers le monde</span>
                 <div className="flex justify-center items-center gap-5 mt-5">
-                    <img src="/images/clients/1.png" alt="client" className="w-20"/>
-                    <img src="/images/clients/2.png" alt="client" className="w-20"/>
-                    <img src="/images/clients/3.png" alt="client" className="w-20"/>
-                    <img src="/images/clients/4.png" alt="client" className="w-20"/>
-                    <img src="/images/clients/5.png" alt="client" className="w-20"/>
-                    <img src="/images/clients/6.png" alt="client" className="w-20"/>
+                    <img src="/sponsors/elkir.png" alt="Associatiion Elkir" className="h-20"/>
+                    <img src="/sponsors/lljs.png" alt="client" className="h-20 fill-white"/>
+                    <img src="/sponsors/ltdd.png" alt="client" className="h-20"/>
                 </div>
             </section>
         </main>)
