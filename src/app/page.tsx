@@ -12,7 +12,7 @@ export default function Home() {
                 </button>
             </section>
             <section>
-                <span className="uppercase text-gray-400 font-regular text-sm">trusted by persons and projects around the world</span>
+                <span className="uppercase text-gray-400 font-regular text-sm">soutenus par des personnes et projets à travers le monde</span>
                 <div className="flex justify-center items-center gap-5 mt-5">
                     <img src="/images/clients/1.png" alt="client" className="w-20"/>
                     <img src="/images/clients/2.png" alt="client" className="w-20"/>
