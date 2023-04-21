@@ -4,6 +4,7 @@ import React, {useState} from "react";
 import Link from "next/link";
 
 import styles from "./navbar.module.css";
+import Image from "next/image";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,8 +12,9 @@ export default function Navbar() {
 
     return (<header>
         <nav className="inline-flex justify-between w-full items-center pb-8">
-            <Link href="/" className="mr-6 font-bold text-xl">
-                Talent Hub
+            <Link href="/" className="mr-6 font-bold text-xl flex items-center gap-1">
+                <Image src="/logo_white.png" alt="Talent Hub's logo in white version" width={32} height={32}/>
+                <span>Talent Hub</span>
             </Link>
             <ul className="inline-flex items-center text-sm text-livid">
                 <li className="mr-6">
