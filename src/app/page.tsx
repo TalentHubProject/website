@@ -7,12 +7,12 @@ export default function Home() {
                 <h4 className="text-gray-400 text-2xl font-regular">Art, développement, écriture, et bien plus
                     encore...</h4>
                 <button
-                    className="bg-white text-black font-medium py-2 px-4 rounded-md mt-5 shadow-lg shadow-gray-600 hover:shadow-none duration-100 ease-in-out delay-100">
+                    className="bg-white text-black font-medium py-2 px-4 rounded-md mt-5 shadow-lg shadow-gray-600 hover:shadow-none duration-100 ease-in-out delay-100 mt-10">
                     <a href="https://discord.talent-hub.fr/" target="_blank" rel="noreferrer">Rejoindre le serveur</a>
                 </button>
             </section>
             <section>
-                <span className="uppercase text-gray-400 font-regular text-sm">soutenus par des personnes et projets à travers le monde</span>
+                <span className="uppercase text-gray-400 font-regular text-sm">soutenu par des personnes et projets à travers le monde</span>
                 <div className="flex justify-center items-center gap-5 mt-5">
                     <img src="/images/clients/1.png" alt="client" className="w-20"/>
                     <img src="/images/clients/2.png" alt="client" className="w-20"/>
