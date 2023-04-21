@@ -14,10 +14,10 @@ export default function Home() {
 
             <div>
                 <span className="uppercase text-gray-400 font-regular text-sm">soutenu par des personnes et projets à travers le monde</span>
-                <div className="flex justify-center items-center gap-5 mt-5">
-                    <img src="/sponsors/elkir.png" alt="Associatiion Elkir" className="h-20"/>
-                    <img src="/sponsors/lljs.png" alt="client" className="h-20 fill-white"/>
-                    <img src="/sponsors/ltdd.png" alt="client" className="h-20"/>
+                <div className="flex justify-center items-center gap-14 mt-5">
+                    <img src="/sponsors/elkir.png" alt="Associatiion Elkir" className="h-12"/>
+                    <img src="/sponsors/lljs.png" alt="Les laboratoires" className="h-12 fill-white"/>
+                    <img src="/sponsors/ltdd.png" alt="La taverne du design" className="h-12"/>
                 </div>
             </div>
         </div>
