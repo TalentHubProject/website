@@ -10,7 +10,7 @@ export default function Home() {
                 <h4 className="text-gray-400 text-2xl font-regular">Réunissant passionnés d'art, de développement, de
                     musique et bien plus encore</h4>
                 <button
-                    className="bg-white text-black font-medium py-2 px-4 rounded-md shadow-lg shadow-gray-600 hover:shadow-none duration-100 ease-in-out delay-100 mt-10">
+                    className="bg-white text-black font-medium py-2 px-6 rounded-full shadow-lg shadow-gray-600 hover:shadow-none duration-100 ease-in-out delay-100 mt-10">
                     <a href="https://discord.talent-hub.fr/" target="_blank" rel="noreferrer">Rejoindre l'aventure</a>
                 </button>
             </div>
