@@ -7,7 +7,7 @@ export default function Home() {
         <div className="inline-flex flex-col justify-around h-full gap-20">
 
             <div>
-                <h1 className="font-black text-6xl text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400">Talent
+                <h1 className={`font-black text-6xl text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400 ${styles.spotlight}`}>Talent
                     Hub : Collaboration et Créativité</h1>
                 <h4 className="text-gray-400 text-2xl font-regular">Réunissant passionnés d'art, de développement, de
                     musique et bien plus encore</h4>

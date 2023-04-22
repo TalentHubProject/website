@@ -28,6 +28,32 @@ before:rounded-full before:bg-gradient-radial
     filter: blur(40px);
 }
 
+.spotlight::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    width: 240px;
+    height: 180px;
+    border-radius: 50%;
+    background: red;
+    filter: blur(140px);
+}
+
+
+.spotlight::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 30%;
+    width: 240px;
+    height: 180px;
+    border-radius: 50%;
+    background: green;
+    filter: blur(140px);
+}
+
+
 .mouse {
     animation: move 3s ease-in-out infinite;
 }
