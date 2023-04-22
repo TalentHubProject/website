@@ -1,9 +1,11 @@
 import styles from "./page.module.css";
+import Image from "next/image";
 
 export default function Home() {
-    return (
-        <section className="flex justify-center text-center items-center px-auto flex-col h-full">
-        <div className="inline-flex flex-col justify-around h-full">
+    return (<section className="flex justify-center text-center items-center px-auto flex-col h-full mt-32">
+
+        <div className="inline-flex flex-col justify-around h-full gap-20">
+
             <div>
                 <h1 className="font-black text-6xl text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400">Talent
                     Hub : Collaboration et Créativité</h1>
@@ -13,6 +15,10 @@ export default function Home() {
                     className="bg-white text-black font-medium py-2 px-6 rounded-full shadow-lg shadow-gray-600 hover:shadow-none duration-100 ease-in-out delay-100 mt-10">
                     <a href="https://discord.talent-hub.fr/" target="_blank" rel="noreferrer">Rejoindre l'aventure</a>
                 </button>
+            </div>
+
+            <div className="text-center flex justify-center w-full">
+                <Image src="/mockup.png" alt="Talent Hub's discord overview" width={800} height={500}/>
             </div>
 
             <div>
