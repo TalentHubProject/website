@@ -14,7 +14,7 @@ export default function RootLayout({
                                    }: {
     children: React.ReactNode
 }) {
-    return (<html lang="fr" className={inter.className}>
+    return (<html lang="fr" className={`${inter.className} dark`}>
     <body className="min-h-screen">
     <div className="grid md:grid-cols-8 gap-1 sm:grid-cols-1 p-5 bg-gradient-to-b from-gray-900 to-black">
         <div className="col-span-1"></div>
