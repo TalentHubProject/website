@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import Image from "next/image";
+import {Card, CardHeader, CardContent, CardFooter, CardTitle, CardDescription} from "@/components/ui/card";
 
 export default function Home() {
     return (<>
@@ -47,6 +48,19 @@ export default function Home() {
         <section>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid at consequatur cum dolore ea, error
                 eum fuga laborum optio quia quod sint sit tempore veniam? Dignissimos doloremque sint soluta?</p>
+
+            <Card>
+                <CardHeader>
+                    <CardTitle>Card Title</CardTitle>
+                    <CardDescription>Card Description</CardDescription>
+                </CardHeader>
+                <CardContent>
+                    <p>Card Content</p>
+                </CardContent>
+                <CardFooter>
+                    <p>Card Footer</p>
+                </CardFooter>
+            </Card>
         </section>
     </>)
 }
