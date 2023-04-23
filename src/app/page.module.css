@@ -31,7 +31,7 @@ before:rounded-full before:bg-gradient-radial
 .spotlight::before {
     content: "";
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     left: 50%;
     width: 240px;
     height: 180px;
@@ -44,7 +44,7 @@ before:rounded-full before:bg-gradient-radial
 .spotlight::after {
     content: "";
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     left: 30%;
     width: 240px;
     height: 180px;
