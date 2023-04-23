@@ -6,6 +6,10 @@ import Providers from "@/app/providers";
 export const metadata = {
     title: 'Talent Hub : Réunir les talents, inspirer les projets et la croissance ',
     description: 'Talent Hub, plateforme innovante de collaboration sur Discord, développement, musique, investissement et plus encore.',
+    themeColor: [
+        { media: "(prefers-color-scheme: light)", color: "white" },
+        { media: "(prefers-color-scheme: dark)", color: "black" },
+    ],
 }
 
 const inter = Inter({ subsets: ['latin'] })
@@ -15,7 +19,7 @@ export default function RootLayout({
                                    }: {
     children: React.ReactNode
 }) {
-    return (<html lang="fr" className={`${inter.className} `}>
+    return (<html lang="fr" className={inter.className}>
     <body className="min-h-screen">
     <div className="grid md:grid-cols-8 gap-1 sm:grid-cols-1 p-5 bg-gradient-to-b from-gray-900 to-black">
         <div className="col-span-1"></div>
