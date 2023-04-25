@@ -49,7 +49,7 @@ export default function Home() {
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid at consequatur cum dolore ea, error
                 eum fuga laborum optio quia quod sint sit tempore veniam? Dignissimos doloremque sint soluta?</p>
 
-            <Card>
+            <Card className="bg-primary text-foreground">
                 <CardHeader>
                     <CardTitle>Card Title</CardTitle>
                     <CardDescription>Card Description</CardDescription>

@@ -20,7 +20,7 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (<html lang="fr" className={inter.className}>
-    <body className="min-h-screen">
+    <body className="min-h-screen bg-primary">
     <div className="grid md:grid-cols-8 gap-1 sm:grid-cols-1 p-5 bg-gradient-to-b from-gray-900 to-black">
         <div className="col-span-1"></div>
         <div className="col-start-2 col-span-6 flex-inline justify-between gap-5 ">
