@@ -46,21 +46,25 @@ export default function Home() {
             </div>
         </section>
         <section>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid at consequatur cum dolore ea, error
-                eum fuga laborum optio quia quod sint sit tempore veniam? Dignissimos doloremque sint soluta?</p>
 
-            <Card className="bg-primary text-foreground">
-                <CardHeader>
-                    <CardTitle>Card Title</CardTitle>
-                    <CardDescription>Card Description</CardDescription>
-                </CardHeader>
-                <CardContent>
-                    <p>Card Content</p>
-                </CardContent>
-                <CardFooter>
-                    <p>Card Footer</p>
-                </CardFooter>
-            </Card>
+            <h1 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400">Une communauté unique</h1>
+            <p className="text-livid mt-2">Fondée sur l'entraide et la collaboration, nous privilégions la générosité et l'humanité, rejetant l'opportunisme pour créer des liens authentiques.</p>
+
+            <div className="mt-5">
+                <Card className="bg-primary text-foreground">
+                    <CardHeader>
+                        <CardTitle>Card Title</CardTitle>
+                        <CardDescription>Card Description</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                        <p>Card Content</p>
+                    </CardContent>
+                    <CardFooter>
+                        <p>Card Footer</p>
+                    </CardFooter>
+                </Card>
+            </div>
+
         </section>
     </>)
 }
