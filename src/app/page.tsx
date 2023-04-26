@@ -48,11 +48,11 @@ export default function Home() {
         <section>
 
             <h1 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400">Une communauté unique</h1>
-            <p className="text-livid mt-2">Fondée sur l'entraide et la collaboration, nous privilégions la générosité et l'humanité, rejetant l'opportunisme pour créer des liens authentiques.</p>
+            <p className="text-livid mt-2 text-center">Fondée sur l'entraide et la collaboration, nous privilégions la générosité et l'humanité, rejetant l'opportunisme pour créer des liens authentiques.</p>
 
             <div className="mt-10 grid grid-cols-3 grid-rows-2 gap-10">
                 <div className="col-span-2 row-span-1">
-                    <Card>
+                    <Card className="bg-background text-foreground h-full">
                         <CardHeader>
                             <Image src="/mockup.png" alt="Talent Hub's discord overview" width={800} height={500}/>
                         </CardHeader>
@@ -62,7 +62,7 @@ export default function Home() {
                     </Card>
                 </div>
                 <div className="col-span-1 row-span-1">
-                    <Card>
+                    <Card className="bg-background text-foreground h-full">
                         <CardHeader>
                             <Image src="/mockup.png" alt="Talent Hub's discord overview" width={800} height={500}/>
                         </CardHeader>
@@ -72,7 +72,7 @@ export default function Home() {
                     </Card>
                 </div>
                 <div className="col-span-1 row-span-1">
-                    <Card>
+                    <Card className="bg-background text-foreground h-full">
                         <CardHeader>
                             <Image src="/mockup.png" alt="Talent Hub's discord overview" width={800} height={500}/>
                         </CardHeader>
@@ -82,7 +82,7 @@ export default function Home() {
                     </Card>
                 </div>
                 <div className="col-span-2 row-span-1">
-                    <Card>
+                    <Card className="bg-background text-foreground h-100">
                         <CardHeader>
                             <Image src="/mockup.png" alt="Talent Hub's discord overview" width={800} height={500}/>
                         </CardHeader>
