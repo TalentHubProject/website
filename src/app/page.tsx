@@ -107,11 +107,11 @@ export default function Home() {
             <p className="mt-5 text-livid">Talent hub propose des pôles spécialisés. Cela permet d'améliorer le
                 processus d'acquisition de talents et d'augmenter la qualité de la procédure de recrutement. Mais
                 surtout de renforcer les différents liens qui nous unissent.</p>
-            <div className="mt-10 grid grid-cols-2 grid-rows-3 gap-10 w-full">
+            <div className="mt-10 grid grid-cols-2 grid-rows-3 gap-10 w-full h-full">
                 <div className="col-span-1 row-span-1">
                 </div>
                 <div className="col-span-1 row-span-1">
-                    <div className="flex flex-row">
+                    <div className="flex flex-row justify-end">
                         <div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -131,16 +131,16 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="col-span-1 row-span-1">
-                    <p>hey3</p>
+                    <div className="w-full h-full bg-red-500"></div>
                 </div>
                 <div className="col-span-1 row-span-1">
-                    <p>hey4</p>
+                    <div className="w-full h-full bg-red-500"></div>
                 </div>
                 <div className="col-span-1 row-span-1">
-                    <p>hey5</p>
+                    <div className="w-full h-full bg-red-500"></div>
                 </div>
                 <div className="col-span-1 row-span-1">
-                    <p>hey6</p>
+                    <div className="w-full h-full bg-red-500"></div>
                 </div>
 
 
