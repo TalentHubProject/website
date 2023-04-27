@@ -47,8 +47,10 @@ export default function Home() {
         </section>
         <section>
 
-            <h1 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400">Une communauté unique</h1>
-            <p className="text-livid mt-5 text-center">Fondée sur l'entraide et la collaboration, nous privilégions la générosité et l'humanité, rejetant l'opportunisme pour créer des liens authentiques.</p>
+            <h1 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400">Une
+                communauté unique</h1>
+            <p className="text-livid mt-5 text-center">Fondée sur l'entraide et la collaboration, nous privilégions la
+                générosité et l'humanité, rejetant l'opportunisme pour créer des liens authentiques.</p>
 
             <div className="mt-10 grid grid-cols-3 grid-rows-2 gap-10">
                 <div className="col-span-2 row-span-1">
@@ -57,16 +59,20 @@ export default function Home() {
                             <Image src="/mockup.png" alt="Talent Hub's discord overview" width={800} height={500}/>
                         </CardHeader>
                         <CardContent>
-                            <CardTitle className="font-bold text-2xl">Communauté professionelle et conviviale</CardTitle>
-                            <CardDescription>Connectez-vous avec des individus compétents et engagés dans divers domaines.</CardDescription>
+                            <CardTitle className="font-bold text-2xl">Communauté professionelle et
+                                conviviale</CardTitle>
+                            <CardDescription>Connectez-vous avec des individus compétents et engagés dans divers
+                                domaines.</CardDescription>
                         </CardContent>
                     </Card>
                 </div>
                 <div className="col-span-1 row-span-1">
                     <Card className="bg-background text-foreground h-full">
                         <CardContent className="flex items-center justify-center flex-col h-full">
-                            <CardTitle className="text-2xl font-bold text-center">Développement des compétences</CardTitle>
-                            <CardDescription>Améliroez vos aptitudes et élargissez vos conaissances grâce à des collaborations enrichissantes.</CardDescription>
+                            <CardTitle className="text-2xl font-bold text-center">Développement des
+                                compétences</CardTitle>
+                            <CardDescription>Améliroez vos aptitudes et élargissez vos conaissances grâce à des
+                                collaborations enrichissantes.</CardDescription>
                         </CardContent>
                     </Card>
                 </div>
@@ -74,7 +80,8 @@ export default function Home() {
                     <Card className="bg-background text-foreground h-full">
                         <CardContent className="flex items-center justify-center flex-col h-full">
                             <CardTitle className="text-2xl font-bold">Projets collaboratifs</CardTitle>
-                            <CardDescription>Participez à des initiatives novatrices et passionnantes au sein d'équipes dynamiques</CardDescription>
+                            <CardDescription>Participez à des initiatives novatrices et passionnantes au sein d'équipes
+                                dynamiques</CardDescription>
                         </CardContent>
                     </Card>
                 </div>
@@ -85,7 +92,8 @@ export default function Home() {
                         </CardHeader>
                         <CardContent>
                             <CardTitle className="text-2xl font-bold">Atmoshère conviviale</CardTitle>
-                            <CardDescription>Profitez d'un environnement bienveillant et chalereux pour vous épanouir et vous développer.</CardDescription>
+                            <CardDescription>Profitez d'un environnement bienveillant et chalereux pour vous épanouir et
+                                vous développer.</CardDescription>
                         </CardContent>
                     </Card>
                 </div>
@@ -94,34 +102,31 @@ export default function Home() {
         </section>
 
         <section>
-            <h1 className="font-black text-6xl text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400 ">Les différents pôles</h1>
-            <p className="mt-5 text-livid">Talent hub propose des pôles spécialisés. Cela permet d'améliorer le processus d'acquisition de talents et d'augmenter la qualité de la procédure de recrutement. Mais surtout de renforcer les différents liens qui nous unissent.</p>
-            <div className="mt-10 grid grid-cols-2 grid-rows-3 gap-10">
+            <h1 className="font-black text-6xl text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400 ">Les
+                différents pôles</h1>
+            <p className="mt-5 text-livid">Talent hub propose des pôles spécialisés. Cela permet d'améliorer le
+                processus d'acquisition de talents et d'augmenter la qualité de la procédure de recrutement. Mais
+                surtout de renforcer les différents liens qui nous unissent.</p>
+            <div className="mt-10 grid grid-cols-2 grid-rows-3 gap-10 w-full">
                 <div className="col-span-1 row-span-1">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi corporis dignissimos eum
-                        explicabo ipsam laboriosam mollitia nostrum optio provident qui. Cupiditate enim eum explicabo
-                        impedit itaque molestias neque possimus reiciendis?</p>
                 </div>
                 <div className="col-span-1 row-span-1">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto deserunt distinctio
-                        eos expedita facilis harum incidunt magnam minima natus neque nobis nostrum officia provident
-                        qui, quis, rerum, ut vel!</p>
+                    <p>hey2</p>
                 </div>
                 <div className="col-span-1 row-span-1">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur consequuntur,
-                        culpa dicta dolorem ducimus expedita fuga illum magnam, nam quasi qui quo repellendus similique
-                        suscipit temporibus veniam! Alias, saepe.</p>
+                    <p>hey3</p>
                 </div>
                 <div className="col-span-1 row-span-1">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consequatur corporis cumque ducimus
-                        eius eligendi excepturi expedita ipsa libero, minus nostrum quod reiciendis reprehenderit sit
-                        soluta temporibus ullam voluptates voluptatibus!</p>
+                    <p>hey4</p>
                 </div>
                 <div className="col-span-1 row-span-1">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt esse ex exercitationem fugit
-                        id iste itaque iure maxime minima nisi, quae quo saepe, sunt tenetur unde. Corporis sequi velit
-                        voluptatem!</p>
+                    <p>hey5</p>
                 </div>
+                <div className="col-span-1 row-span-1">
+                    <p>hey6</p>
+                </div>
+
+
             </div>
         </section>
     </>)
