@@ -92,5 +92,37 @@ export default function Home() {
             </div>
 
         </section>
+
+        <section>
+            <h1 className="font-black text-6xl text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400 ">Les différents pôles</h1>
+            <p className="mt-5 text-livid">Talent hub propose des pôles spécialisés. Cela permet d'améliorer le processus d'acquisition de talents et d'augmenter la qualité de la procédure de recrutement. Mais surtout de renforcer les différents liens qui nous unissent.</p>
+            <div className="mt-10 grid grid-cols-2 grid-rows-3 gap-10">
+                <div className="col-span-1 row-span-1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi corporis dignissimos eum
+                        explicabo ipsam laboriosam mollitia nostrum optio provident qui. Cupiditate enim eum explicabo
+                        impedit itaque molestias neque possimus reiciendis?</p>
+                </div>
+                <div className="col-span-1 row-span-1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto deserunt distinctio
+                        eos expedita facilis harum incidunt magnam minima natus neque nobis nostrum officia provident
+                        qui, quis, rerum, ut vel!</p>
+                </div>
+                <div className="col-span-1 row-span-1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur consequuntur,
+                        culpa dicta dolorem ducimus expedita fuga illum magnam, nam quasi qui quo repellendus similique
+                        suscipit temporibus veniam! Alias, saepe.</p>
+                </div>
+                <div className="col-span-1 row-span-1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consequatur corporis cumque ducimus
+                        eius eligendi excepturi expedita ipsa libero, minus nostrum quod reiciendis reprehenderit sit
+                        soluta temporibus ullam voluptates voluptatibus!</p>
+                </div>
+                <div className="col-span-1 row-span-1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt esse ex exercitationem fugit
+                        id iste itaque iure maxime minima nisi, quae quo saepe, sunt tenetur unde. Corporis sequi velit
+                        voluptatem!</p>
+                </div>
+            </div>
+        </section>
     </>)
 }
