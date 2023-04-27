@@ -64,15 +64,15 @@ export default function Home() {
                 </div>
                 <div className="col-span-1 row-span-1">
                     <Card className="bg-background text-foreground h-full">
-                        <CardHeader>
+                        <CardContent className="flex items-center justify-center flex-col h-full">
                             <CardTitle className="text-2xl font-bold text-center">Développement des compétences</CardTitle>
                             <CardDescription>Améliroez vos aptitudes et élargissez vos conaissances grâce à des collaborations enrichissantes.</CardDescription>
-                        </CardHeader>
+                        </CardContent>
                     </Card>
                 </div>
                 <div className="col-span-1 row-span-1">
                     <Card className="bg-background text-foreground h-full">
-                        <CardContent>
+                        <CardContent className="flex items-center justify-center flex-col h-full">
                             <CardTitle className="text-2xl font-bold">Projets collaboratifs</CardTitle>
                             <CardDescription>Participez à des initiatives novatrices et passionnantes au sein d'équipes dynamiques</CardDescription>
                         </CardContent>
