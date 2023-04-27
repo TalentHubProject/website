@@ -48,7 +48,7 @@ export default function Home() {
         <section>
 
             <h1 className="text-center font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400">Une communauté unique</h1>
-            <p className="text-livid mt-2 text-center">Fondée sur l'entraide et la collaboration, nous privilégions la générosité et l'humanité, rejetant l'opportunisme pour créer des liens authentiques.</p>
+            <p className="text-livid mt-5 text-center">Fondée sur l'entraide et la collaboration, nous privilégions la générosité et l'humanité, rejetant l'opportunisme pour créer des liens authentiques.</p>
 
             <div className="mt-10 grid grid-cols-3 grid-rows-2 gap-10">
                 <div className="col-span-2 row-span-1">
@@ -57,27 +57,24 @@ export default function Home() {
                             <Image src="/mockup.png" alt="Talent Hub's discord overview" width={800} height={500}/>
                         </CardHeader>
                         <CardContent>
-                            <CardTitle>Card title</CardTitle>
+                            <CardTitle className="font-bold text-2xl">Communauté professionelle et conviviale</CardTitle>
+                            <CardDescription>Connectez-vous avec des individus compétents et engagés dans divers domaines.</CardDescription>
                         </CardContent>
                     </Card>
                 </div>
                 <div className="col-span-1 row-span-1">
                     <Card className="bg-background text-foreground h-full">
                         <CardHeader>
-                            <Image src="/mockup.png" alt="Talent Hub's discord overview" width={800} height={500}/>
+                            <CardTitle className="text-2xl font-bold text-center">Développement des compétences</CardTitle>
+                            <CardDescription>Améliroez vos aptitudes et élargissez vos conaissances grâce à des collaborations enrichissantes.</CardDescription>
                         </CardHeader>
-                        <CardContent>
-                            <CardTitle>Card title</CardTitle>
-                        </CardContent>
                     </Card>
                 </div>
                 <div className="col-span-1 row-span-1">
                     <Card className="bg-background text-foreground h-full">
-                        <CardHeader>
-                            <Image src="/mockup.png" alt="Talent Hub's discord overview" width={800} height={500}/>
-                        </CardHeader>
                         <CardContent>
-                            <CardTitle>Card title</CardTitle>
+                            <CardTitle className="text-2xl font-bold">Projets collaboratifs</CardTitle>
+                            <CardDescription>Participez à des initiatives novatrices et passionnantes au sein d'équipes dynamiques</CardDescription>
                         </CardContent>
                     </Card>
                 </div>
@@ -87,7 +84,8 @@ export default function Home() {
                             <Image src="/mockup.png" alt="Talent Hub's discord overview" width={800} height={500}/>
                         </CardHeader>
                         <CardContent>
-                            <CardTitle>Card title</CardTitle>
+                            <CardTitle className="text-2xl font-bold">Atmoshère conviviale</CardTitle>
+                            <CardDescription>Profitez d'un environnement bienveillant et chalereux pour vous épanouir et vous développer.</CardDescription>
                         </CardContent>
                     </Card>
                 </div>
