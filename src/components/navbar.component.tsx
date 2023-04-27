@@ -5,13 +5,15 @@ import Link from "next/link";
 
 import styles from "./navbar.module.css";
 import Image from "next/image";
+import {SeparatorHorizontal} from "lucide-react";
+import {Separator} from "@/components/ui/separator";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
     return (<header>
-        <nav className="inline-flex justify-between w-full items-center pb-8">
+        <nav className="inline-flex justify-between w-full items-center pb-4">
             <Link href="/" className="mr-6 font-bold text-xl flex items-center gap-1">
                 <Image src="/logo_white.png" alt="Talent Hub's logo in white version" width={32} height={32}/>
                 <span>Talent Hub</span>
@@ -46,5 +48,6 @@ export default function Navbar() {
                             </span>
             </Link>
         </nav>
+        <Separator />
     </header>);
 }
