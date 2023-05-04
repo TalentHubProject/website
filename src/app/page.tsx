@@ -31,6 +31,7 @@ export default function Home() {
                         <img src="/sponsors/elkir.png" alt="Associatiion Elkir" className="h-12"/>
                         <img src="/sponsors/lljs.png" alt="Les laboratoires" className="h-12 fill-white"/>
                         <img src="/sponsors/ltdd.png" alt="La taverne du design" className="h-12"/>
+                        <img src="/sponsors/df.png" alt="Discord France" className="h-24"/>
                     </div>
                 </div>
 
