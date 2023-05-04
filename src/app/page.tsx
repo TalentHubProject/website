@@ -53,7 +53,7 @@ export default function Home() {
             <p className="text-livid mt-5 text-center">Fondée sur l'entraide et la collaboration, nous privilégions la
                 générosité et l'humanité, rejetant l'opportunisme pour créer des liens authentiques.</p>
 
-            <div className="mt-10 grid grid-cols-3 grid-rows-2 gap-10">
+            <div className="mt-10 grid md:grid-cols-3 grid-rows-2 gap-10 sm:grid-cols-1">
                 <div className="col-span-2 row-span-1">
                     <Card className="bg-background text-foreground h-full">
                         <CardHeader>
