@@ -18,13 +18,13 @@ export default function Navbar() {
             </Link>
             <ul className="inline-flex items-center text-sm text-livid">
                 <li className="mr-6">
-                    <Link href="/" className="hover:text-white delay-75 duration-100 ease-in-out">Blog</Link>
+                    <Link href="/blog" className="hover:text-white delay-75 duration-100 ease-in-out">Blog</Link>
                 </li>
                 <li className="mr-6">
-                    <Link href="/about" className="hover:text-white delay-75 duration-100 ease-in-out">Offres</Link>
+                    <Link href="/offres" className="hover:text-white delay-75 duration-100 ease-in-out">Offres</Link>
                 </li>
                 <li className="mr-6">
-                    <Link href="/contact"
+                    <Link href="/trombinoscope"
                           className="hover:text-white delay-75 duration-100 ease-in-out">Trombinoscope</Link>
                 </li>
             </ul>
