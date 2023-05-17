@@ -36,7 +36,7 @@ before:rounded-full before:bg-gradient-radial
     width: 240px;
     height: 180px;
     border-radius: 50%;
-    background: red;
+    background: pink;
     filter: blur(140px);
 }
 
@@ -49,7 +49,7 @@ before:rounded-full before:bg-gradient-radial
     width: 240px;
     height: 180px;
     border-radius: 50%;
-    background: green;
+    background: deeppink;
     filter: blur(140px);
 }
 
