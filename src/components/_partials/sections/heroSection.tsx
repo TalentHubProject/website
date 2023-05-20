@@ -18,7 +18,7 @@ export default function HeroSection() {
             </div>
 
             <div className="sm:flex-0">
-                <Image src="/discord-platform.png" alt="Overview of the discord server" width={1000} height={1000}/>
+                <Image src="/discord-platform.png" alt="Overview of the discord server" width={700} height={700}/>
             </div>
         </section>
     );
