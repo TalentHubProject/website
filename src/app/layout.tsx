@@ -21,7 +21,7 @@ export default function RootLayout({
     return (<html lang="fr" className={inter.className}>
     <body className="min-h-screen bg-primary">
     <ClerkProvider>
-        <div className="container mx-auto py-8">
+        <div className="container-sm mx-auto py-8">
             <Navbar/>
             {children}
         </div>

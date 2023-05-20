@@ -10,12 +10,12 @@ export default function Navbar() {
     const toggle = () => setIsOpen(!isOpen);
 
     return (<header>
-        <nav className="inline-flex justify-between w-full items-center pb-4">
+        <nav className="inline-flex justify-around w-full items-center pb-4">
             <Link href="/" className="mr-6 font-bold text-xl flex items-center gap-1">
                 <Image src="/logo_white.png" alt="Talent Hub's logo in white version" width={32} height={32}/>
                 <span>Talent Hub</span>
             </Link>
-            <ul className="inline-flex items-center text-sm text-livid">
+            <ul className="inline-flex items-center text-sm text-livid gap-5">
                 <li className="mr-6">
                     <Link href="/blog" className="hover:text-white delay-75 duration-100 ease-in-out">Blog</Link>
                 </li>
