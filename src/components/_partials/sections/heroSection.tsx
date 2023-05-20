@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HeroSection() {
     return (
         <section className="flex justify-between items-center">
@@ -16,7 +18,7 @@ export default function HeroSection() {
             </div>
 
             <div>
-                <img src="/discord-platform.png" alt="Overview of the discord server"/>
+                <Image src="/discord-platform.png" alt="Overview of the discord server" width={500} height={500}/>
             </div>
         </section>
     );
