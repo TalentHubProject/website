@@ -3,7 +3,6 @@
 import React, {useState} from "react";
 import Link from "next/link";
 import Image from "next/image";
-import {Separator} from "@/components/ui/separator";
 import {SignedIn, SignedOut, UserButton} from "@clerk/nextjs";
 
 export default function Navbar() {
@@ -57,6 +56,5 @@ export default function Navbar() {
 
             </SignedOut>
         </nav>
-        <Separator/>
     </header>);
 }

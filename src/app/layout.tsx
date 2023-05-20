@@ -1,19 +1,17 @@
 import './globals.css'
 import Navbar from "@/components/navbar.component";
 import {Inter} from "next/font/google";
-import Providers from "@/app/providers";
 import {ClerkProvider} from "@clerk/nextjs";
 
 export const metadata = {
     title: 'Talent Hub : Réunir les talents, inspirer les projets et la croissance ',
     description: 'Talent Hub, plateforme innovante de collaboration sur Discord, développement, musique, investissement et plus encore.',
-    themeColor: [
-        { media: "(prefers-color-scheme: light)", color: "white" },
-        { media: "(prefers-color-scheme: dark)", color: "black" },
-    ],
+    themeColor: [{media: "(prefers-color-scheme: light)", color: "white"}, {
+        media: "(prefers-color-scheme: dark)", color: "black"
+    },],
 }
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({subsets: ['latin']})
 
 export default function RootLayout({
                                        children,
@@ -23,18 +21,10 @@ export default function RootLayout({
     return (<html lang="fr" className={inter.className}>
     <body className="min-h-screen bg-primary">
     <ClerkProvider>
-    <div className="grid md:grid-cols-8 gap-1 sm:grid-cols-1 p-5 bg-gradient-to-b from-gray-900 to-black">
-        <div className="col-span-1"></div>
-        <div className="col-start-2 col-span-6 flex-inline justify-between gap-5 ">
+        <div className="container mx-auto py-8">
             <Navbar/>
-            <main className="container mx-auto py-8 mt-8 h-screen flex flex-col justify-between gap-y-64">
-                <Providers>
-                    {children}
-                </Providers>
-            </main>
+            {children}
         </div>
-        <div className="col-span-1"></div>
-    </div>
     </ClerkProvider>
     </body>
     </html>)
