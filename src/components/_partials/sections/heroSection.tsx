@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function HeroSection() {
     return (
-        <section className="flex justify-between items-center lg:flex-row md:flex-row sm:flex-col">
-            <div className="flex items-start justify-start flex-col gap-20 break-words text-left sm:flex-1">
-                <h1 className="font-semibold text-6xl">Talent Hub Collaboration et créativité</h1>
+        <section className="h-screen grid grid-cols-1 md:grid-cols-3">
+            <div className="flex items-start justify-center flex-col gap-20 break-words text-left col-start-1">
+                <h1 className="font-medium text-6xl">Talent Hub Collaboration et créativité</h1>
                 <h2 className="text-livid text-xl">Réunissant passionés d'art, de développement, de musique et bien plus
                     encore</h2>
 
@@ -17,8 +17,13 @@ export default function HeroSection() {
                 </div>
             </div>
 
-            <div className="sm:flex-0">
-                <Image src="/discord-platform.png" alt="Overview of the discord server" width={700} height={700}/>
+            <div className="col-start-2 col-span-3">
+                <Image
+                    src="/discord-platform.png"
+                    alt="Overview of the discord server"
+                    layout="fill"
+                    objectFit="contain"
+                />
             </div>
         </section>
     );
