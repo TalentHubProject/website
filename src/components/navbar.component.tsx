@@ -9,7 +9,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
-    return (<header>
+    return (<header className="container mx-auto py-8">
         <nav className="flex justify-between w-full items-center pb-4">
             <Link href="/" className="mr-6 font-bold text-xl flex items-center gap-1">
                 <Image src="/logo_white.png" alt="Talent Hub's logo in white version" width={32} height={32}/>

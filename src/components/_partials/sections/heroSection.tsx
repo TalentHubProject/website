@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
     return (
-        <section className="h-screen grid grid-cols-1 md:grid-cols-3">
+        <section className="h-screen grid grid-cols-1 md:grid-cols-3 container mx-auto ">
             <div className="flex items-start justify-center flex-col gap-20 break-words text-left col-start-1">
                 <h1 className="font-medium text-6xl">Talent Hub Collaboration et créativité</h1>
                 <h2 className="text-livid text-xl">Réunissant passionés d'art, de développement, de musique et bien plus
