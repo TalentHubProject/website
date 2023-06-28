@@ -24,7 +24,7 @@ export default function SponsorSection() {
     return (
         <section className="text-livid w-full shadow-sm h-56 drop-shadow-2xl">
             <div className="container mx-auto flex items-center h-full flex-col">
-                <span className="text-xl">
+                <span className="text-xl text-center mb-5">
                   Soutenu par des personnes et projets à travers le monde
                 </span>
                 <div className="flex flex-row gap-5 items-center">
