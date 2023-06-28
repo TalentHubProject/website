@@ -27,7 +27,7 @@ export default function SponsorSection() {
     ];
 
     return (
-        <section className="bg-white text-black w-full shadow-sm h-56 drop-shadow-2xl">
+        <section className="w-full shadow-sm h-56 drop-shadow-2xl">
             <div className="container mx-auto flex items-center h-full">
         <span className="font-semibold text-xl">
           Soutenu par des personnes et projets à travers le monde

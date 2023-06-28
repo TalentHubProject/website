@@ -32,7 +32,7 @@ export default function FeatureSection() {
     ];
 
     return (
-        <section className="bg-white text-black flex w-full">
+        <section className="flex w-full">
             <div className="container mx-auto">
                 {features.map((feature, index) => (
                     <div key={index} className="flex flex-col justify-center items-center gap-5">
