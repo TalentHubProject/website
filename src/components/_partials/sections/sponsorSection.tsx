@@ -9,19 +9,19 @@ interface SponsorSectionProps {
 export default function SponsorSection() {
     const sponsors: SponsorSectionProps[] = [
         {
-            image: <Image src="/sponsors/df.png" width={50} height={50} />,
+            image: <Image src="/sponsors/df.png" width={50} height={50}  alt={"Logo de Discord France"}/>,
             alt: "Logo de Discord France",
         },
         {
-            image: <Image src="/sponsors/elkir.png" width={50} height={50} />,
+            image: <Image src="/sponsors/elkir.png" width={50} height={50} alt={"Logo de l'association Elkir"}/>,
             alt: "Logo de l'association Elkir",
         },
         {
-            image: <Image src="/sponsors/lljs.png" width={50} height={50} />,
+            image: <Image src="/sponsors/lljs.png" width={50} height={50}  alt={"Logo du Laboratoire JS"}/>,
             alt: "Logo des Laboratoires JS",
         },
         {
-            image: <Image src="/sponsors/ltdd.png" width={50} height={50} />,
+            image: <Image src="/sponsors/ltdd.png" width={50} height={50}  alt={"Logo de La Taverne Du Design"}/>,
             alt: "Logo de La Taverne Du Design",
         },
     ];
