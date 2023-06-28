@@ -42,27 +42,28 @@ const FeatureSection = () => {
 
         <div className="mt-20 w-screen grid grid-cols-1 gap-y-50 items-start relative">
             {features.map((feature, index) => (
-                    <div key={index} className={
-                        `rounded-xl mx-40 my-40 flex flex-row justify-center items-center gap-5 text-white bg-[#D8CFCF] bg-opacity-10
-                    ${(index%2 === 0) ? 'justify-self-end' : 'justify-self-start'} p-10 m-5 w-[800px] h-[500px] relative border-gray-700 border`
-                    } data-aos={(index%2 === 0) ? 'fade-right' : 'fade-left'}>
+               <div key={index} className={
+                    `rounded-xl mx-40 my-40 flex flex-row justify-center items-center gap-5 text-white bg-[#D8CFCF] bg-opacity-10
+                   ${(index%2 === 0) ? 'justify-self-end' : 'justify-self-start'} p-10 m-5 w-[800px] h-[500px] relative border-gray-700 border
+                   filter grayscale hover:filter-none transition-all duration-200 ease-in-out`
+                } data-aos={(index%2 === 0) ? 'fade-right' : 'fade-left'}>
 
-                        {index%2 !== 0 &&
-                            <Image src={feature.image} alt={feature.title} width={500} height={500}
-                                   className="absolute -ml-[600px] z-0"   />
-                        }
+                {index%2 !== 0 &&
+                    <Image src={feature.image} alt={feature.title} width={500} height={500}
+                           className="absolute -ml-[600px] z-0 filter grayscale hover:filter-none transition-all duration-500 ease-in-out"   />
+                }
 
-                        <div className="z-10">
-                            <h3 className="font-semibold text-4xl">{feature.title}</h3>
-                            <p className="text-livid">{feature.description}</p>
-                        </div>
+                <div className="z-10">
+                    <h3 className="font-semibold text-4xl">{feature.title}</h3>
+                    <p className="text-livid">{feature.description}</p>
+                </div>
 
-                        {index%2 === 0 &&
-                            <Image src={feature.image} alt={feature.title} width={500} height={500}
-                                   className="absolute -mr-[600px] z-0" />
-                        }
+                {index%2 === 0 &&
+                    <Image src={feature.image} alt={feature.title} width={500} height={500}
+                           className="absolute -mr-[600px] z-0 filter grayscale hover:filter-none transition-all duration-500 ease-in-out" />
+                }
 
-                    </div>
+              </div>
             ))}
         </div>
 
