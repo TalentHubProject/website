@@ -11,9 +11,9 @@ export default function Navbar() {
             </div>
             <div>
                 <ul className="flex flex-row justify-between gap-10 font-semibold text-livid">
-                    <li>Blog</li>
-                    <li>Offres</li>
-                    <li>Trombinoscope</li>
+                  <li><a className="transition-colors duration-200 hover:text-indigo-600" href="#">Blog</a></li>
+                  <li><a className="transition-colors duration-200 hover:text-indigo-600" href="#">Offres</a></li>
+                  <li><a className="transition-colors duration-200 hover:text-indigo-600" href="#">Trombinoscope</a></li>
                 </ul>
             </div>
             <div className="bg-white text-black px-5 py-3 font-semibold rounded-xl">
