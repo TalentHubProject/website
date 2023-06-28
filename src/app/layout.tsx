@@ -18,6 +18,7 @@ export default function RootLayout({
 }) {
     return (<html lang="fr" className="scroll-smooth">
     <body className="bg-primary">
+    <link rel="icon" href="/favicon.ico" sizes="any" />
     <main className={`{inter.className} h-screen`}>
         <Navbar/>
         {children}
