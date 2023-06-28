@@ -40,7 +40,7 @@ export default function FeatureSection() {
         <div className="mt-20 w-screen grid grid-cols-1 gap-y-50 items-start relative">
             {features.map((feature, index) => (
                 <div key={index} className={
-                    `rounded-xl mx-40 flex flex-row justify-center items-center gap-5 text-white bg-[#D8CFCF] bg-opacity-10
+                    `rounded-xl mx-40 my-40 flex flex-row justify-center items-center gap-5 text-white bg-[#D8CFCF] bg-opacity-10
                     ${(index%2 === 0) ? 'justify-self-end' : 'justify-self-start'} p-10 m-5 w-[800px] h-[500px] relative border-gray-700 border`
                 }>
 
