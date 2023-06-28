@@ -1,7 +1,11 @@
+import HeroSection from "@/components/_partials/sections/heroSection";
+import FeatureSection from "@/components/_partials/sections/featureSection";
+import SponsorSection from "@/components/_partials/sections/sponsorSection";
+
 export default function Page() {
-    return (
-        <>
-            <h1>Page</h1>
-        </>
-    );
+    return (<>
+            <HeroSection/>
+            <SponsorSection/>
+            <FeatureSection/>
+        </>);
 }
