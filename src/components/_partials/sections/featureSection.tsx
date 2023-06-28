@@ -32,8 +32,17 @@ export default function FeatureSection() {
     ];
 
     return (
-        <section className="flex w-full">
-            <div className="container mx-auto">
+        <section className="text-center flex flex-col justify-center items-center">
+
+            <div>
+                <span className="text-sm p-4 border-gray-600 border rounded-full text-livid">À propos</span>
+
+                <h2 className="text-white text-6xl font-semibold break-normal whitespace-nowrap mt-14">
+                    A propos de Talent Hub
+                </h2>
+            </div>
+
+            <div className="mt-20">
                 {features.map((feature, index) => (
                     <div key={index} className="flex flex-col justify-center items-center gap-5">
                         <Image src={feature.image} alt={feature.title} width={200} height={200} />
