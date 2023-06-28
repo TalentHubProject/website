@@ -16,7 +16,7 @@ export default function Navbar() {
                     <li>Trombinoscope</li>
                 </ul>
             </div>
-            <div className="bg-white text-black p-3 font-semibold rounded-xl">
+            <div className="bg-white text-black px-5 py-3 font-semibold rounded-xl">
                 Se connecter
             </div>
         </nav>
