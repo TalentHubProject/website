@@ -1,3 +1,6 @@
+"use client";
+// We use different functional component declaration ways to avoid "unexpected token" when using client-side rendering
+
 import React from "react";
 import Image from "next/image";
 
@@ -7,7 +10,7 @@ interface FeatureSectionProps {
     image: string;
 }
 
-export default function FeatureSection() {
+const FeatureSection = () => {
     const features: FeatureSectionProps[] = [{
         title: "Nous disposons d'une communauté professionnelle et active",
         description: "Connectez-vous avec des individus compétents et engagés dans divers domaines.",
@@ -39,29 +42,31 @@ export default function FeatureSection() {
 
         <div className="mt-20 w-screen grid grid-cols-1 gap-y-50 items-start relative">
             {features.map((feature, index) => (
-                <div key={index} className={
-                    `rounded-xl mx-40 my-40 flex flex-row justify-center items-center gap-5 text-white bg-[#D8CFCF] bg-opacity-10
+                    <div key={index} className={
+                        `rounded-xl mx-40 my-40 flex flex-row justify-center items-center gap-5 text-white bg-[#D8CFCF] bg-opacity-10
                     ${(index%2 === 0) ? 'justify-self-end' : 'justify-self-start'} p-10 m-5 w-[800px] h-[500px] relative border-gray-700 border`
-                }>
+                    } data-aos={(index%2 === 0) ? 'fade-right' : 'fade-left'}>
 
-                    {index%2 !== 0 &&
-                        <Image src={feature.image} alt={feature.title} width={500} height={500}
-                             className="absolute -ml-[600px] z-0"   />
-                    }
+                        {index%2 !== 0 &&
+                            <Image src={feature.image} alt={feature.title} width={500} height={500}
+                                   className="absolute -ml-[600px] z-0"   />
+                        }
 
-                    <div className="z-10">
-                        <h3 className="font-semibold text-4xl">{feature.title}</h3>
-                        <p className="text-livid">{feature.description}</p>
+                        <div className="z-10">
+                            <h3 className="font-semibold text-4xl">{feature.title}</h3>
+                            <p className="text-livid">{feature.description}</p>
+                        </div>
+
+                        {index%2 === 0 &&
+                            <Image src={feature.image} alt={feature.title} width={500} height={500}
+                                   className="absolute -mr-[600px] z-0" />
+                        }
+
                     </div>
-
-                    {index%2 === 0 &&
-                        <Image src={feature.image} alt={feature.title} width={500} height={500}
-                               className="absolute -mr-[600px] z-0" />
-                    }
-
-                </div>
             ))}
         </div>
 
     </section>);
 }
+
+export default FeatureSection;

@@ -19,6 +19,11 @@ export default function RootLayout({
     return (<html lang="fr" className="scroll-smooth">
     <body className="bg-primary">
     <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <main className={`{inter.className} h-screen`}>
         <Navbar/>
         {children}
