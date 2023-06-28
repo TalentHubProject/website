@@ -16,7 +16,7 @@ export default function RootLayout({
                                    }: {
     children: React.ReactNode
 }) {
-    return (<html lang="fr">
+    return (<html lang="fr" className="scroll-smooth">
     <body className="bg-primary">
     <main className={`{inter.className} h-screen`}>
         <Navbar/>
