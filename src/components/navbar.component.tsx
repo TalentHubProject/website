@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Navbar() {
     return (
-        <nav className="w-full flex flex-row justify-between px-10 py-5">
+        <nav className="w-full flex flex-row justify-between px-20 py-10">
             <div className="text-white font-bold text-xl flex justify-between items-center">
                 <Image src="/logo_white.png" alt="Logo de Talent Hub" width={32} height={32} />
                 <span>
@@ -10,7 +10,7 @@ export default function Navbar() {
                 </span>
             </div>
             <div>
-                <ul className="flex flex-row justify-between gap-5 text-livid">
+                <ul className="flex flex-row justify-between gap-10 font-semibold text-livid">
                     <li>Blog</li>
                     <li>Offres</li>
                     <li>Trombinoscope</li>
