@@ -16,9 +16,26 @@ export default function PoleSection() {
                 </p>
             </div>
 
-            <div>
-
+            <div className="flex flex-col h-screen overflow-auto scroll-snap-y">
+                <div className="h-screen scroll-snap-start flex justify-center items-center text-white text-5xl">
+                    <div className="bg-red-500 w-1/2 h-1/2 flex justify-center items-center shadow-2xl rounded-lg">
+                        Carte 1
+                    </div>
+                </div>
+                <div className="h-screen scroll-snap-start flex justify-center items-center text-white text-5xl">
+                    <div className="bg-green-500 w-1/2 h-1/2 flex justify-center items-center shadow-2xl rounded-lg">
+                        Carte 2
+                    </div>
+                </div>
+                <div className="h-screen scroll-snap-start flex justify-center items-center text-white text-5xl">
+                    <div className="bg-blue-500 w-1/2 h-1/2 flex justify-center items-center shadow-2xl rounded-lg">
+                        Carte 3
+                    </div>
+                </div>
+                {/* Ajoutez plus de cartes si nécessaire */}
             </div>
+
+
 
         </section>
     );
