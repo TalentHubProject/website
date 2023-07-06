@@ -1,7 +1,7 @@
-import {Suspense, use} from "react";
 import Image from "next/image";
+import { cache } from 'react';
 
-const fetchDiscordGuildMembers = async () => {
+const fetchDiscordGuildMembers = cache(async () => {
     const token = process.env.DISCORD_TOKEN;
     const guildId = process.env.DISCORD_GUILD_ID;
 
@@ -11,19 +11,25 @@ const fetchDiscordGuildMembers = async () => {
         },
     });
 
+    if (!res.ok) {
+        return [];
+    }
+
     return res ? res.json() : [];
-}
-export default function DiscordAvatars() {
+});
 
-    const discordAvatarsData = use(fetchDiscordGuildMembers());
+export default async function DiscordAvatars() {
+    const data = await fetchDiscordGuildMembers();
 
-    console.log(discordAvatarsData);
-
-    return (<div className="animate-marquee flex min-w-full shrink-0 items-center justify-around gap-10">
-            <Suspense fallback={<div>Loading...</div>}>
-                {discordAvatarsData?.map((discordAvatar: any) => (
-                    <Image src={`https://cdn.discordapp.com/avatars/${discordAvatar.user.id}/${discordAvatar.user.avatar}.png`} width={64} height={64} className="rounded-full"  alt={discordAvatar.user.username} key={discordAvatar.user.id}/>
-                ))}
-            </Suspense>
+    return (
+        <div className="animate-marquee flex min-w-full shrink-0 items-center justify-around gap-10">
+            {
+                data?.map((discordAvatar: any) => (
+                    <Image
+                        src={`https://cdn.discordapp.com/avatars/${discordAvatar.user.id}/${discordAvatar.user.avatar}.png`}
+                        width={64} height={64} className="rounded-full" alt={discordAvatar.user.username}
+                        key={discordAvatar.user.id}/>
+                ))
+            }
         </div>);
 }

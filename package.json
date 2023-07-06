@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^4.21.12",
+    "@clerk/nextjs": "^4.21.14",
     "@headlessui/react": "^1.7.15",
     "@nextui-org/react": "1.0.0-beta.13",
     "@radix-ui/react-separator": "^1.0.3",
@@ -22,17 +22,18 @@
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
     "lucide-react": "^0.172.0",
-    "next": "13.4.8-canary.9",
+    "next": "^13.4.9-canary.2",
     "next-themes": "^0.2.1",
     "postcss": "8.4.22",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-fetch": "^0.0.9",
     "react-horizontal-scrolling-menu": "^4.1.0",
+    "swr": "^2.2.0",
     "tailwind-merge": "^1.13.2",
     "tailwindcss": "3.3.2",
     "tailwindcss-animate": "^1.0.6",
-    "turbo": "^1.10.6",
+    "turbo": "^1.10.7",
     "typescript": "5.0.4"
   }
 }
