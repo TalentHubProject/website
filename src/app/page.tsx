@@ -1,7 +1,7 @@
 import HeroSection from "@/components/_partials/sections/heroSection";
 import FeatureSection from "@/components/_partials/sections/featureSection";
 import SponsorSection from "@/components/_partials/sections/sponsorSection";
-import PoleSection from "@/components/_partials/sections/poleSection";
+import TheySupportUsSection from "@/components/_partials/sections/theySupportUsSection";
 import AdvantagesSection from "@/components/_partials/sections/advantagesSection";
 
 export default function Page() {
@@ -11,7 +11,7 @@ export default function Page() {
                 <HeroSection/>
                 <SponsorSection/>
                 <FeatureSection/>
-                <PoleSection />
+                <TheySupportUsSection />
                 <AdvantagesSection/>
             </div>
         </div>
