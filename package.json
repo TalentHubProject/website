@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^4.21.12",
+    "@headlessui/react": "^1.7.15",
     "@nextui-org/react": "1.0.0-beta.13",
     "@radix-ui/react-separator": "^1.0.3",
     "@types/node": "18.15.11",

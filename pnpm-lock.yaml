@@ -4,6 +4,9 @@ dependencies:
   '@clerk/nextjs':
     specifier: ^4.21.12
     version: 4.21.12(next@13.4.8-canary.9)(react-dom@18.2.0)(react@18.2.0)
+  '@headlessui/react':
+    specifier: ^1.7.15
+    version: 1.7.15(react-dom@18.2.0)(react@18.2.0)
   '@nextui-org/react':
     specifier: 1.0.0-beta.13
     version: 1.0.0-beta.13(react-dom@18.2.0)(react@18.2.0)
@@ -237,6 +240,18 @@ packages:
     resolution: {integrity: sha512-bRTd+rKomvfdS4QDlVJ6TA/Jx1F2h/TBVO5LjvhQ7QPPHp19oPNMIum7W2CMEReq/zPxpmCeB31F9+5gl/qtvw==}
     dependencies:
       tslib: 2.6.0
+    dev: false
+
+  /@headlessui/react@1.7.15(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-OTO0XtoRQ6JPB1cKNFYBZv2Q0JMqMGNhYP1CjPvcJvjz8YGokz8oAj89HIYZGN0gZzn/4kk9iUpmMF4Q21Gsqw==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: ^16 || ^17 || ^18
+      react-dom: ^16 || ^17 || ^18
+    dependencies:
+      client-only: 0.0.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /@humanwhocodes/config-array@0.11.10:
