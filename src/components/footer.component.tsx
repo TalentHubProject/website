@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Footer() {
     return (<footer className="mt-auto bg-primary text-livid mx-20 border-b border-white">
-        <div className="grid grid-cols-4 gap-20">
-            <ul className="mb-20">
+        <div className="items-stretch grid grid-cols-4 gap-20">
+            <ul className="mb-20 flex flex-col flex-grow">
                 <li className="flex flex-col gap-5">
                     <a href="/">
                         <div className="text-white font-bold text-3xl inline-flex justify-between items-center">
@@ -23,7 +23,7 @@ export default function Footer() {
                     </a>
                 </li>
             </ul>
-            <ul>
+            <ul className="flex flex-col flex-grow gap-5">
                 <li>
                     <h3 className="text-xl text-white font-semibold mb-5">Acceuil</h3>
                 </li>
@@ -37,7 +37,7 @@ export default function Footer() {
                     Trombinoscope
                 </li>
             </ul>
-            <ul>
+            <ul className="flex flex-col flex-grow gap-5">
                 <li>
                     <h3 className="text-xl text-white font-semibold mb-5">Retrouvez-nous</h3>
                 </li>
