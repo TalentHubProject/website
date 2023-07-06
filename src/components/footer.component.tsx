@@ -2,28 +2,23 @@ import Image from "next/image";
 
 export default function Footer() {
     return (<footer className="border-b border-white mt-auto bg-primary text-livid">
-        <div className="grid grid-cols-4 gap-4">
-            <ul>
-                <li>
+        <div className="grid grid-cols-4 gap-20">
+            <ul className="mb-20">
+                <li className="flex flex-col gap-5">
                     <a href="/">
-
-                        <div className="text-white font-bold text-xl flex justify-between items-center">
-                            <Image src="/logo_white.png" alt="Logo de Talent Hub" width={32} height={32}/>
+                        <div className="text-white font-bold text-3xl inline-flex justify-between items-center">
+                            <Image src="/logo_white.png" alt="Logo de Talent Hub" width={64} height={64}/>
                             <span>
-                      Talent Hub
-                  </span>
+                                Talent Hub
+                            </span>
                         </div>
                     </a>
-                </li>
-                <li>
                     <p>
                         Réunissant passionnés d'art, de développement, de musique et bien plus encore
                     </p>
-                </li>
-                <li>
                     <a href="https://discord.talent-hub.fr"
                        target="_blank"
-                       className="mt-20 px-5 py-2 bg-white hover:bg-gray-200 rounded-xl font-semibold text-black transition-colors duration-200">
+                       className="px-5 py-2 bg-white hover:bg-gray-200 rounded-xl font-semibold text-black transition-colors duration-200 self-start">
                         Rejoindre l'aventure
                     </a>
                 </li>
@@ -53,7 +48,7 @@ export default function Footer() {
             </ul>
             <div>
                 <a href="#">
-                    <div className="text-livid px-5 py-3 font-semibold rounded-xl border border-livid">
+                    <div className="text-livid px-5 py-3 font-semibold rounded-3xl border border-livid inline-block">
                         Se connecter
                     </div>
                 </a>
