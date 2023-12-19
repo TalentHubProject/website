@@ -14,7 +14,7 @@
     </div>
 
     <Button variant="link" asChild>
-      <nuxt-link to="/login" class="flex gap-5"><LucideFingerprint/> Se connecter</nuxt-link>
+      <nuxt-link to="/signin" class="flex gap-5"><LucideFingerprint/> Se connecter</nuxt-link>
     </Button>
   </nav>
 </template>
