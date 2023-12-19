@@ -34,6 +34,9 @@ devDependencies:
   nuxt:
     specifier: ^3.8.2
     version: 3.8.2(typescript@5.3.3)(vite@5.0.10)
+  nuxt-lucide-icons:
+    specifier: ^1.0.3
+    version: 1.0.3(vue@3.3.12)
   shadcn-nuxt:
     specifier: ^0.1.0
     version: 0.1.0
@@ -4076,6 +4079,14 @@ packages:
       yallist: 4.0.0
     dev: true
 
+  /lucide-vue-next@0.298.0(vue@3.3.12):
+    resolution: {integrity: sha512-yzN8hwJkSs/tVzeSkMLtGwlJHuIMtTe1dcc7MUQitRj6K9ZCErt9JX9VBc7hmxt6l3WQfmIfjkOjp36fUJ1lsg==}
+    peerDependencies:
+      vue: '>=3.0.1'
+    dependencies:
+      vue: 3.3.12(typescript@5.3.3)
+    dev: true
+
   /magic-string-ast@0.3.0:
     resolution: {integrity: sha512-0shqecEPgdFpnI3AP90epXyxZy9g6CRZ+SZ7BcqFwYmtFEnZ1jpevcV5HoyVnlDS9gCnc1UIg3Rsvp3Ci7r8OA==}
     engines: {node: '>=16.14.0'}
@@ -4643,6 +4654,19 @@ packages:
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.3
+    dev: true
+
+  /nuxt-lucide-icons@1.0.3(vue@3.3.12):
+    resolution: {integrity: sha512-AqFYKu9+Uz3SGelg9VQt7wkm7hN2RlLwVBkRnEqKxNNWGw7zcdud3tqb63A1gfjWK5RkdBscFcrcQKvcq0bt6w==}
+    dependencies:
+      '@nuxt/kit': 3.8.2
+      lucide-vue-next: 0.298.0(vue@3.3.12)
+      pathe: 1.1.1
+      scule: 1.1.1
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+      - vue
     dev: true
 
   /nuxt@3.8.2(typescript@5.3.3)(vite@5.0.10):

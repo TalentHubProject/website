@@ -13,6 +13,8 @@
       <nuxt-link to="/trombinoscope">Trombinoscope</nuxt-link>
     </div>
 
-    <Button variant="link"><nuxt-link to="/login">Se connecter</nuxt-link></Button>
+    <Button variant="link" asChild>
+      <nuxt-link to="/login" class="flex gap-5"><LucideFingerprint/> Se connecter</nuxt-link>
+    </Button>
   </nav>
 </template>
