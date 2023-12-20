@@ -6,7 +6,7 @@
   <section class="mt-60 flex flex-col gap-y-10">
 
     <div class="text-center mb-10">
-      <span class="bg-slate-200 py-1 px-4 rounded-md font-inter font-normal">📙A propos</span>
+      <span class="bg-slate-100 py-1 px-4 rounded-md font-inter font-medium text-sm text-slate-700">📙A propos</span>
       <h2 class="text-3xl font-bold font-poppins my-8 text-primaryBlack">Qu'est-ce que Talent Hub ?</h2>
       <p class="text-primaryGray text-2xl font-inter">Découvrez Talent Hub, la plateforme collaborative ultime qui rassemble les esprits créatifs et innovants.</p>
     </div>
