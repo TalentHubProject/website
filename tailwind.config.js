@@ -10,7 +10,13 @@ module.exports = {
                 "2xl": "1400px",
             },
         }, extend: {
+            fontFamily: {
+                poppins: ["Poppins", "sans-serif"],
+                inter: ["Inter", "sans-serif"],
+            },
             colors: {
+                primaryBlack: "#1E1E1E",
+                primaryGray: "#8B96AA",
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
                 ring: "hsl(var(--ring))",
