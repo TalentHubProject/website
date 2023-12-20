@@ -11,8 +11,8 @@
     </nuxt-link>
 
     <div
-        class="md:flex justify-between gap-5 bg-slate-100 p-2 rounded-md
-    child-hover:bg-white child:p-2 child:rounded-md child:transition-all child:duration-300 child:ease-in-out hidden">
+        class="md:flex justify-between gap-x-5 bg-slate-100 px-2 py-1 rounded-md
+    child-hover:bg-white child:px-2 child:py-1 child:rounded-md child:transition-all child:duration-300 child:ease-in-out hidden">
       <nuxt-link to="/blog">Blog</nuxt-link>
       <nuxt-link to="/offres">Offres</nuxt-link>
       <nuxt-link to="/trombinoscope">Trombinoscope</nuxt-link>
