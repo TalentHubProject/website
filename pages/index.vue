@@ -6,7 +6,7 @@ import About from "~/components/sections/about.vue";
 
 <template>
   <main class="px-10 md:px-20">
-    <hero />
-    <about />
+    <hero/>
+    <about/>
   </main>
 </template>
