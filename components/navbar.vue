@@ -1,7 +1,11 @@
 <script lang="ts" setup>
 import Separator from "~/components/ui/separator/Separator.vue";
+import Toaster from "~/components/ui/toast/Toaster.vue";
+import {useToast} from "~/components/ui/toast";
 
 let isMenuOpen = ref(false)
+
+const { toast } = useToast()
 
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value
@@ -20,7 +24,12 @@ const toggleMenu = () => {
         class="md:flex justify-between gap-x-5 bg-slate-100 px-2 py-1 rounded-md
     child-hover:bg-white child:px-2 child:py-1 child:rounded-md child:transition-all child:duration-300 child:ease-in-out hidden">
       <nuxt-link to="/blog">Blog</nuxt-link>
-      <nuxt-link to="/offres">Offres</nuxt-link>
+      <nuxt-link to="#" @click="() => {
+      toast({
+        title: 'A venir bientôt!',
+        description: 'Les offres arrivent bientôt! Restez à l\'affût! 😝',
+      });
+    }">Offres</nuxt-link>
       <nuxt-link to="/trombinoscope">Trombinoscope</nuxt-link>
     </div>
 
@@ -48,9 +57,14 @@ const toggleMenu = () => {
         <div
             class="flex flex-col items-start justify-center child:font-inter child:font-normal child:text-xl w-full gap-y-14 child:text-primaryBlack">
           <Separator class="mb-5"/>
-          <nuxt-link class="mb-4" href="#" to="/blog">Blog</nuxt-link>
-          <nuxt-link class="mb-4" href="#" to="/offres">Offres</nuxt-link>
-          <nuxt-link class="mb-4" href="#" to="/trombinoscope">Trombinoscope</nuxt-link>
+          <nuxt-link class="mb-4" to="/blog">Blog</nuxt-link>
+          <nuxt-link class="mb-4" to="#" @click="() => {
+      toast({
+        title: 'A venir bientôt!',
+        description: 'Les offres arrivent bientôt! Restez à l\'affût! 😝',
+      });
+    }">Offres</nuxt-link>
+          <nuxt-link class="mb-4" to="/trombinoscope">Trombinoscope</nuxt-link>
           <Separator class="my-20"/>
         </div>
 
