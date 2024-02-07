@@ -60,7 +60,9 @@
                 </div>
                 <hr class="my-6 border-slate-200 sm:mx-auto lg:my-8" />
                 <div class="my-16 sm:my-0 sm:flex sm:items-center sm:justify-between">
-                    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© Copyright 2023, Talent Hub.
+                    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+                       Développé par <a href="https://agdl.dev" class="underline">Alexis C. Gridel | Ecrin Digital</a> 
+                        © Copyright 2023, Talent Hub.
                     </span>
 
                 </div>
