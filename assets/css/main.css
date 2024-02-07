@@ -1,0 +1,14 @@
+body {
+    font-family: "Poppins" ;
+  }
+
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  @layer components{
+      .bg-pink{
+          @apply bg-[#E05880]
+      }
+  }
+  

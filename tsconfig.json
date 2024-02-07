@@ -1,12 +1,4 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "astro/tsconfigs/strict",
-  "compilerOptions": {
-    // Alias `src` to `~`
-    "target": "ESNext",
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["src/*"]
-    }
-  }
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json"
 }
