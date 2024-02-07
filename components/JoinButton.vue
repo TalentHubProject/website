@@ -13,7 +13,7 @@ const data = () => ({
 <!-- </script> -->
 
 <template>
-  <div>
+  <a href="https://discord.talent-hub.fr" target="_blank" rel="noreferrer noopener">
     <button @mouseover="isMouseOver = true" @mouseout="isMouseOver = false"
       class="bg-transparent  text-[#E05880] text-sm font-medium hover:text-white py-2 px-4 border border-[#E05880] hover:border-transparent rounded"
       :class="isMouseOver ? 'red-fill' : ''">
@@ -24,7 +24,7 @@ const data = () => ({
           :fill="isMouseOver ? 'white' : '#E05880'" />
       </svg>
     </button>
-  </div>
+  </a>
 </template>
 <script>
 export default {
