@@ -15,7 +15,7 @@ const data = () => ({
 <template>
   <a href="https://discord.talent-hub.fr" target="_blank" rel="noreferrer noopener">
     <button @mouseover="isMouseOver = true" @mouseout="isMouseOver = false"
-      class="bg-transparent  text-[#E05880] text-sm font-medium hover:text-white py-2 px-4 border border-[#E05880] hover:border-transparent rounded"
+      class="bg-transparent  text-[#E05880] text-sm font-medium hover:text-white py-2 px-4 border border-[#E05880] hover:border-transparent rounded transition duration-300 ease-in-out"
       :class="isMouseOver ? 'red-fill' : ''">
       <p class="float-left">{{ text }}</p>
       <svg width="24" height="21" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
