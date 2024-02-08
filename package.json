@@ -18,6 +18,9 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "nuxt-swiper": "^1.2.2"
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.3",
+    "nuxt-swiper": "^1.2.2",
+    "tailwind-merge": "^2.2.1"
   }
 }
