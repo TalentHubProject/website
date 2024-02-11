@@ -1,0 +1,44 @@
+---
+// Définir l'état initial et la fonction pour gérer l'état du menu mobile
+let isOpen = false;
+const toggleDrawer = () => {
+    isOpen = !isOpen;
+};
+
+import { Icon } from 'astro-icon/components';
+---
+
+<nav class="fixed w-full p-6 bg-white z-20">
+    <div class="flex items-center justify-between sm:justify-around">
+        <div class="ml-0 lg:ml-24">
+            <span class="ml-2 pt-2 font-extrabold text-fake-black text-2xl">Talent Hub</span>
+        </div>
+        <!-- Navbar pour les écrans md et plus -->
+        <div class="hidden md:flex">
+            <ul class="flex space-x-2 text-sm bg-slate-100 px-1 py-2 rounded">
+                <!-- Remplacez NuxtLink par <a> en Astro -->
+                <li><a href="/" class="px-2 hover:bg-white">Blog</a></li>
+                <li><a href="/offers" class="px-2 hover:bg-white">Offres</a></li>
+                <li><a href="/starboard" class="px-2 hover:bg-white">Starboard</a></li>
+            </ul>
+        </div>
+
+        <div class="md:hidden">
+            <button @click={toggleDrawer}>
+                <Icon name="mdi:hamburger-menu">
+            </button>
+        </div>
+    </div>
+
+    {isOpen && (
+            <aside class="transform top-0 left-0 w-screen bg-white fixed h-full overflow-auto ease-in-out z-30">
+                <button class="absolute top-0 right-0 mt-6 mr-4" @click={toggleDrawer}>
+                </button>
+                <ul>
+                    <li><a href="/" @click={toggleDrawer}>Blog</a></li>
+                    <li><a href="/offers" @click={toggleDrawer}>Offres</a></li>
+                    <li><a href="/starboard" @click={toggleDrawer}>Starboard</a></li>
+                </ul>
+            </aside>
+    )}
+</nav>
