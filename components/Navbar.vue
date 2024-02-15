@@ -14,7 +14,7 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/offers" active-class="exactActiveClass " class="px-2 hoverClass">Offres</NuxtLink>
+                <NuxtLink to="/events" active-class="exactActiveClass " class="px-2 hoverClass">Événements</NuxtLink>
             </li>
             <li>
               <NuxtLink to="/starboard" active-class="exactActiveClass" class="px-2 hoverClass">Starboard
@@ -62,8 +62,7 @@
               <NuxtLink to="/" @click="isOpen = false" class="my-8 inline-block text-xl font-medium">Blog</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/offers" @click="isOpen = false" class="my-8 inline-block text-xl font-medium">Offres
-              </NuxtLink>
+              <NuxtLink to="/events" @click="isOpen = false" class="my-8 inline-block text-xl font-medium">Événements</NuxtLink>
             </li>
             <li>
               <NuxtLink to="/starboard" @click="isOpen = false" class="my-8 inline-block text-xl font-medium">

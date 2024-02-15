@@ -23,7 +23,7 @@
                         <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-2 mb-4">
                             <div class="w-full h-[340px] sm:h-[440px] relative card-bg bg-cover bg-center rounded-lg">
                                 <div
-                                        class="absolute top-0 left-0 w-full h-full opacity-90 overlay hover:opacity-100 rounded-lg text-white ">
+                                        class="absolute top-0 left-0 w-full h-full opacity-90 overlay hover:opacity-100 rounded-lg text-white transition-all duration-300 ease-in-out">
                                     <div class="flex items-center justify-end mt-4 sm:mt-8 mr-8">
                                         <img class=" mr-2" src="~/assets/images/ri_time-fill.png">
                                         <!-- Adjust width, height, and margin as needed -->
@@ -55,7 +55,7 @@
                             </div>
                             <div class="w-full h-[340px] sm:h-auto relative card-bg2 bg-cover bg-center rounded-lg">
                                 <div
-                                        class="absolute top-0 left-0 w-full h-full opacity-90 overlay2 hover:opacity-100 rounded-lg text-white ">
+                                        class="absolute top-0 left-0 w-full h-full opacity-90 overlay2 hover:opacity-100 rounded-lg text-white transition-all duration-300 ease-in-out">
                                     <div class="flex items-center justify-end mt-4 sm:mt-8 mr-8">
                                         <img class=" mr-2" src="~/assets/images/ri_time-fill.png">
                                         <!-- Adjust width, height, and margin as needed -->
@@ -88,7 +88,7 @@
                             </div>
                             <div class="w-full h-[340px] sm:h-[440px] relative card-bg3 bg-cover bg-center rounded-lg">
                                 <div
-                                        class="absolute top-0 left-0 w-full h-full opacity-90 overlay3 hover:opacity-100  rounded-lg text-white ">
+                                        class="absolute top-0 left-0 w-full h-full opacity-90 overlay3 hover:opacity-100  rounded-lg text-white transition duration-300 ease-in-out">
                                     <div class="flex items-center justify-end mt-4 sm:mt-8 mr-8">
                                         <img class=" mr-2" src="~/assets/images/ri_time-fill.png">
                                         <!-- Adjust width, height, and margin as needed -->
@@ -125,7 +125,7 @@
                             </div>
                             <div class="w-full h-[340px] sm:h-[440px] relative card-bg4 bg-cover bg-center rounded-lg">
                                 <div
-                                        class="absolute top-0 left-0 w-full h-full opacity-90 overlay4 hover:opacity-100 rounded-lg text-white ">
+                                        class="absolute top-0 left-0 w-full h-full opacity-90 overlay4 hover:opacity-100 rounded-lg text-white transition duration-300 ease-in-out">
                                     <div class="flex items-center justify-end mt-4 sm:mt-8 mr-8">
                                         <img class=" mr-2" src="~/assets/images/ri_time-fill.png">
                                         <!-- Adjust width, height, and margin as needed -->
