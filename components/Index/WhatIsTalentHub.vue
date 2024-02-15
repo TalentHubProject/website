@@ -32,7 +32,7 @@
           <div>
             <img class="" src="~/assets/images/Ellipse1.png"/>
             <h3 class="pt-4 text-2xl font-semibold">Contenu</h3>
-            <p class="pt-4 pb-4 font-normal text-xl text-gray-400">
+            <p class="pt-4 pb-4 font-normal text-xl text-gray-400 text-justify">
               Suivez des créations ou un modèle créé par des artistes vérifiés
               et accélérez la croissance de votre niveau et de votre
               créativité.
@@ -41,7 +41,7 @@
           <div>
             <img class="" src="~/assets/images/Ellipse2.png"/>
             <h3 class="pt-4 text-2xl font-semibold">Communauté</h3>
-            <p class="pt-4 pb-4 font-normal text-xl text-gray-400">
+            <p class="pt-4 pb-4 font-normal text-xl text-gray-400 text-justify">
               Rejoignez Talent Hub et trouvez les connaissances, le soutien et
               la communauté qui vous aideront à faire évoluer votre entreprise
               vers le niveau suivant.
@@ -50,7 +50,7 @@
           <div>
             <img class="" src="~/assets/images/Ellipse3.png"/>
             <h3 class="pt-4 text-2xl font-semibold">Besoin d’aide</h3>
-            <p class="pt-4 pb-4 font-normal text-xl text-gray-400">
+            <p class="pt-4 pb-4 font-normal text-xl text-gray-400 text-justify">
               Recevez des conseils de plusieurs artistes en groupe ou en
               tête-à-tête et surmontez les obstacles commerciaux et les
               blocages créatifs.
