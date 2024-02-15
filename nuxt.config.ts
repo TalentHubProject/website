@@ -15,5 +15,8 @@ export default defineNuxtConfig({
         inject: true
       }
     }]
-  ]
+  ],
+  tailwindcss: {
+    configPath: '../tailwind.config.js'
+  }
 })
