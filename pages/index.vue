@@ -68,7 +68,7 @@
                         class="px-0 sm:5px lg:px-20 md:px-40 pt-16 grid grid-cols-1 gap-24 md:grid-cols-3 md:gap-5 text-left"
                 >
                     <div
-                            class="mx-8 md:mx-0 border border-white rounded-md text-white hover:text-black text-white hover:text-black hover:bg-white"
+                            class="mx-8 md:mx-0 border border-white rounded-md text-white hover:text-black text-white hover:text-black hover:bg-white transition duration-500 ease-in-out"
                     >
                         <img class="ml-auto" src="~/assets/images/reading-side.png"/>
                         <h3 class="pl-4 pt-4 text-sm font-bold">Graphisme</h3>
@@ -77,7 +77,7 @@
                         </p>
                     </div>
                     <div
-                            class="mx-8 md:mx-0 border border-white rounded-md text-white hover:text-black hover:bg-white"
+                            class="mx-8 md:mx-0 border border-white rounded-md text-white hover:text-black hover:bg-white transition duration-500 ease-in-out"
                     >
                         <img class="ml-auto" src="~/assets/images/dancing.png"/>
                         <h3 class="pl-4 text-sm font-bold">Musique</h3>
@@ -86,7 +86,7 @@
                         </p>
                     </div>
                     <div
-                            class="mx-8 md:mx-0 border border-white rounded-md text-white hover:text-black hover:bg-white"
+                            class="mx-8 md:mx-0 border border-white rounded-md text-white hover:text-black hover:bg-white transition duration-500 ease-in-out"
                     >
                         <img class="ml-auto" src="~/assets/images/clumsy 1.png"/>
                         <h3 class="pl-4 text-sm font-bold">Investissement</h3>
@@ -99,7 +99,7 @@
                         class="px-0 lg:px-20 md:px-40 pt-24 md:pt-12 pb-44 grid grid-cols-1 gap-24 md:grid-cols-3 md:gap-5 text-left"
                 >
                     <div
-                            class="mx-8 md:mx-0 border border-white rounded-md text-white hover:text-black hover:bg-white"
+                            class="mx-8 md:mx-0 border border-white rounded-md text-white hover:text-black hover:bg-white transition duration-500 ease-in-out"
                     >
                         <img class="ml-auto" src="~/assets/images/Combined-Shape.png"/>
                         <h3 class="pl-4 pt-5 text-sm font-bold">Développement</h3>
@@ -108,7 +108,7 @@
                         </p>
                     </div>
                     <div
-                            class="mx-8 md:mx-0 border border-white rounded-md text-white hover:text-black hover:bg-white"
+                            class="mx-8 md:mx-0 border border-white rounded-md text-white hover:text-black hover:bg-white transition duration-500 ease-in-out"
                     >
                         <img class="ml-auto" src="~/assets/images/sitting-reading 1.png"/>
                         <h3 class="pl-4 text-sm font-bold">Écriture</h3>
