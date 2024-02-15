@@ -120,121 +120,71 @@
             </div>
         </section>
         <section class="w-full">
-            <div
-                    class="mt-32 sm:mt-16 pb-32 px-4 mx-auto max-w-screen-xl text-center lg:pt-20"
-            >
+            <div class="mt-32 sm:mt-16 pb-32 px-4 mx-auto max-w-screen-xl text-center lg:pt-20">
                 <div class="flex items-center justify-center">
                     <div class="bg-slate-100 px-4 py-1 rounded">
                         <img class="float-left pt-1 pr-2" src="~/assets/images/faq.png"/>
                         <p class="text-slate-700 float-left">FAQ</p>
                     </div>
                 </div>
-                <h1
-                        class="text-2xl sm:text-3xl pt-6 font-bold mx-12 text-black xl:px-64"
-                >
-                    Question fréquemment demandé
+                <h1 class="text-2xl sm:text-3xl pt-6 font-bold mx-12 text-black xl:px-64">
+                    Questions Fréquemment Demandées
                 </h1>
-                <div
-                        class="px-0 lg:px-16 pt-24 grid grid grid-cols-1 gap-12 md:grid-cols-2 md:gap-24 text-left"
-                >
-                    <div class="">
+                <div class="px-0 lg:px-16 pt-24 grid grid-cols-1 gap-12 md:grid-cols-2 md:gap-24 text-left">
+                    <div>
                         <div>
-                            <h3 class="font-bold text-2xl">What is Burst?</h3>
+                            <h3 class="font-bold text-2xl">Qu'est-ce que Talent Hub ?</h3>
                             <p class="font-normal font-xl pt-3 text-gray-400">
-                                Burst is a free stock photo platform that is powered by Shopify.
-                                Our image library includes thousands of high-resolution,
-                                royalty-free images that were shot by our global community of
-                                photographers. We built Burst to provide designers, developers,
-                                bloggers and entrepreneurs with access to beautiful free stock
-                                photography. You can use our pictures for just about anything —
-                                your website, blog or online store, school projects, Instagram
-                                ads, facebook posts, desktop backgrounds, client work and more.
-                                All our photos are free for commercial use with no attribution
-                                required; you can read more about this on our license page.
+                                Talent Hub est une communauté sur Discord réunissant des individus talentueux dans des domaines variés comme l'art, le développement, la musique, et l'investissement. Notre but est de fournir un espace pour la créativité, le partage d'idées, et les projets collaboratifs.
                             </p>
                         </div>
                         <div>
                             <h3 class="font-bold text-2xl pt-12 lg:pt-8">
-                                How do I download free photos?
+                                Comment puis-je rejoindre Talent Hub ?
                             </h3>
                             <p class="font-normal font-xl pt-3 text-gray-400">
-                                When you hover over or click on an image, you will see "High
-                                Resolution" and "Low Resolution" download options. "Low Res"
-                                images are great for small web graphics, where file sizes need
-                                to be very compressed. "High Res" images are better for
-                                presentations, websites, online stores, and anywhere else where
-                                quality matters most.
+                                Cliquez simplement <a href="//discord.talent-hub.fr" target="_blank" class="text-blue-500">ici</a> pour rejoindre notre serveur Discord. Une fois que vous avez rejoint, vous pouvez vous présenter dans le salon #présentation et commencer à explorer les différents salons.
                             </p>
                         </div>
                         <div>
                             <h3 class="font-bold text-2xl pt-12 lg:pt-8">
-                                Can I edit, crop or resize Burst photos?
+                                Les projets sur Talent Hub sont-ils open source ?
                             </h3>
                             <p class="font-normal font-xl pt-3 text-gray-400">
-                                Yes, you’re welcome to crop, resize, add text and filters, or
-                                otherwise modify our stock photos as you see fit. If you don’t
-                                have Photoshop, there are lots of free or low cost online
-                                graphics editors that you can use instead. Feel free to add your
-                                logo or brand to our images to make them your own.
-                            </p>
-                        </div>
-                        <div>
-                            <h3 class="font-bold text-2xl pt-12 lg:pt-8">
-                                Can I use these pictures for another online store platform?
-                            </h3>
-                            <p class="font-normal font-xl pt-3 text-gray-400">
-                                Yes! We believe in making commerce better for everyone, so these
-                                stock photos are free to use on any online store platform or
-                                ecommerce marketplace. Although they were specifically created
-                                and curated with Shopify stores in mind, it’s really up to you
-                                how you want to use them.
+                                Oui, la majorité de nos projets sont open source et disponibles sur <a class="text-blue-500" href="//github.talent-hub.fr" target="_blank">GitHub</a>. Nous encourageons la collaboration et l'innovation ouverte.
                             </p>
                         </div>
                     </div>
-                    <div class="">
+                    <div>
                         <div>
                             <h3 class="font-bold text-2xl">
-                                Do I need to credit the site or photographer?
+                                Puis-je contribuer à un projet si je suis débutant ?
                             </h3>
                             <p class="font-normal font-xl pt-3 text-gray-400">
-                                Our photographers appreciate getting credit for their work
-                                because it helps share their photography with more people, so
-                                we’d encourage you to do so whenever possible. You can give
-                                credit by linking back to the original photo page or the
-                                photographer's Burst profile (e.g. “Photo by Matthew Henry from
-                                Burst”). We realize it's not always possible to provide
-                                attribution, so it is not mandatory under our image license.
+                                Absolument ! Talent Hub encourage la participation de membres de tous niveaux. C'est une excellente opportunité d'apprendre et de progresser dans votre domaine.
                             </p>
                         </div>
                         <div>
                             <h3 class="font-bold text-2xl pt-12 lg:pt-8">
-                                Are these photos free for commercial use?
+                                Comment fonctionne le système de pôles ?
                             </h3>
                             <p class="font-normal font-xl pt-3 text-gray-400">
-                                Yes! In fact, we’d highly encourage it, as many of our
-                                collections were created with entrepreneurs in mind. You can use
-                                these free photos on your online store, product packaging, or
-                                anywhere else you’d like. You can even use these pics to create
-                                t-shirts, mugs, or other products.
+                                Nos pôles organisent les communautés par domaine d'intérêt, permettant une collaboration et un échange d'idées fluides. Les membres peuvent naviguer entre les pôles pour explorer et collaborer.
                             </p>
                         </div>
                         <div>
                             <h3 class="font-bold text-2xl pt-12 lg:pt-8">
-                                Can I use these photographs for offline marketing campaigns?
+                                Comment puis-je sponsoriser ou contribuer à Talent Hub ?
                             </h3>
                             <p class="font-normal font-xl pt-3 text-gray-400">
-                                When you hover over or click on an image, you will see "High
-                                Resolution" and "Low Resolution" download options. "Low Res"
-                                images are great for small web graphics, where file sizes need
-                                to be very compressed. "High Res" images are better for
-                                presentations, websites, online stores, and anywhere else where
-                                quality matters most.
+                                Pour sponsoriser ou contribuer, visitez notre page GitHub ou contactez-nous via notre site. Nous sommes ouverts à toutes formes de collaboration.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <section>
             <div
                     class="text-center rounded-lg mx-4 sm:mx-28 mb-16 sm:mt-32"
