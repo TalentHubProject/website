@@ -30,8 +30,10 @@
         </clipPath>
       </defs>
     </svg>
-    <span @mouseover="isMouseOver = true" @mouseout="isMouseOver = false" class=" ml-2 "
-      :class="isMouseOver ? 'red-fill' : ''">Se connecter</span>
+    <a href="#" @mouseover="isMouseOver = true" @mouseout="isMouseOver = false" class=" ml-2 "
+      :class="isMouseOver ? 'red-fill' : ''">
+        Se connecter
+    </a>
 
   </div>
 </template>
