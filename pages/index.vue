@@ -6,7 +6,7 @@
                         class="mt-16 lg:mt-40 2xl:mt-64 pt-32 px-2 mx-auto max-w-screen-lg text-center md:bg-white lg:pt-16 lg:px-12"
                 >
                     <h1
-                            class="mb-8 text-5xl font-extrabold tracking-tight leading-none md:mb-16 lg:text-6xl bg-clip-text text-[#1E1E1E]"
+                            class="mb-8 text-5xl font-extrabold tracking-tight leading-none md:mb-16 lg:text-6xl text-[#1E1E1E]"
                     >
                         Talent Hub Collaboration et créativité
                     </h1>
